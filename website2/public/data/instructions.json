@@ -1,0 +1,3357 @@
+{
+  "items": [
+    {
+      "id": "dotnet-upgrade",
+      "title": ".NET Framework Upgrade Specialist",
+      "description": "Specialized agent for comprehensive .NET framework upgrades with progressive tracking and validation",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dotnet-upgrade.instructions.md",
+      "filename": "dotnet-upgrade.instructions.md",
+      "lastUpdated": "2026-02-03T10:21:10-08:00"
+    },
+    {
+      "id": "a11y",
+      "title": "A11y",
+      "description": "Comprehensive web accessibility standards based on WCAG 2.2 AA, with 38+ anti-patterns, legal enforcement context (EAA, ADA Title II), WAI-ARIA patterns, and framework-specific fixes for modern web frameworks and libraries.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/a11y.instructions.md",
+      "filename": "a11y.instructions.md",
+      "lastUpdated": "2026-04-15T19:24:55-04:00"
+    },
+    {
+      "id": "agent-safety",
+      "title": "Agent Safety",
+      "description": "Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks, tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/agent-safety.instructions.md",
+      "filename": "agent-safety.instructions.md",
+      "lastUpdated": "2026-02-18T14:51:18-08:00"
+    },
+    {
+      "id": "agent-skills",
+      "title": "Agent Skills",
+      "description": "Guidelines for creating high-quality Agent Skills for GitHub Copilot",
+      "applyTo": "**/skills/**/SKILL.md",
+      "applyToPatterns": [
+        "**/skills/**/SKILL.md"
+      ],
+      "extensions": [],
+      "path": "instructions/agent-skills.instructions.md",
+      "filename": "agent-skills.instructions.md",
+      "lastUpdated": "2026-04-09T13:27:02+08:00"
+    },
+    {
+      "id": "agents",
+      "title": "Agents",
+      "description": "Guidelines for creating custom agent files for GitHub Copilot",
+      "applyTo": "**/*.agent.md",
+      "applyToPatterns": [
+        "**/*.agent.md"
+      ],
+      "extensions": [],
+      "path": "instructions/agents.instructions.md",
+      "filename": "agents.instructions.md",
+      "lastUpdated": "2026-03-17T05:43:29+08:00"
+    },
+    {
+      "id": "ai-prompt-engineering-safety-best-practices",
+      "title": "Ai Prompt Engineering Safety Best Practices",
+      "description": "Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs.",
+      "applyTo": [
+        "*"
+      ],
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+      "filename": "ai-prompt-engineering-safety-best-practices.instructions.md",
+      "lastUpdated": "2025-07-13T15:11:20-07:00"
+    },
+    {
+      "id": "ansible",
+      "title": "Ansible",
+      "description": "Ansible conventions and best practices",
+      "applyTo": "**/*.yaml, **/*.yml",
+      "applyToPatterns": [
+        "**/*.yaml",
+        "**/*.yml"
+      ],
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/ansible.instructions.md",
+      "filename": "ansible.instructions.md",
+      "lastUpdated": "2025-10-02T00:15:14-04:00"
+    },
+    {
+      "id": "apex",
+      "title": "Apex",
+      "description": "Guidelines and best practices for Apex development on the Salesforce Platform",
+      "applyTo": "**/*.cls, **/*.trigger",
+      "applyToPatterns": [
+        "**/*.cls",
+        "**/*.trigger"
+      ],
+      "extensions": [
+        ".cls",
+        ".trigger"
+      ],
+      "path": "instructions/apex.instructions.md",
+      "filename": "apex.instructions.md",
+      "lastUpdated": "2025-12-14T23:29:06+01:00"
+    },
+    {
+      "id": "arch-linux",
+      "title": "Arch Linux",
+      "description": "Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/arch-linux.instructions.md",
+      "filename": "arch-linux.instructions.md",
+      "lastUpdated": "2026-01-31T22:19:32+02:00"
+    },
+    {
+      "id": "aspnet-rest-apis",
+      "title": "Aspnet Rest Apis",
+      "description": "Guidelines for building REST APIs with ASP.NET",
+      "applyTo": "**/*.cs, **/*.json",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/*.json"
+      ],
+      "extensions": [
+        ".cs",
+        ".json"
+      ],
+      "path": "instructions/aspnet-rest-apis.instructions.md",
+      "filename": "aspnet-rest-apis.instructions.md",
+      "lastUpdated": "2026-01-30T12:20:50-05:00"
+    },
+    {
+      "id": "astro",
+      "title": "Astro",
+      "description": "Astro development standards and best practices for content-driven websites",
+      "applyTo": "**/*.astro, **/*.ts, **/*.js, **/*.md, **/*.mdx",
+      "applyToPatterns": [
+        "**/*.astro",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.md",
+        "**/*.mdx"
+      ],
+      "extensions": [
+        ".astro",
+        ".ts",
+        ".js",
+        ".md",
+        ".mdx"
+      ],
+      "path": "instructions/astro.instructions.md",
+      "filename": "astro.instructions.md",
+      "lastUpdated": "2025-10-07T17:49:18-07:00"
+    },
+    {
+      "id": "aws-appsync",
+      "title": "Aws Appsync",
+      "description": "Production-grade guidance for AWS AppSync Event API handlers using APPSYNC_JS runtime restrictions, utilities, modules, and datasource patterns",
+      "applyTo": "**/*.{graphql,gql,vtl,ts,js,mjs,cjs,json,yml,yaml}",
+      "applyToPatterns": [
+        "**/*.{graphql",
+        "gql",
+        "vtl",
+        "ts",
+        "js",
+        "mjs",
+        "cjs",
+        "json",
+        "yml",
+        "yaml}"
+      ],
+      "extensions": [],
+      "path": "instructions/aws-appsync.instructions.md",
+      "filename": "aws-appsync.instructions.md",
+      "lastUpdated": "2026-02-26T21:59:28+01:00"
+    },
+    {
+      "id": "azure-devops-pipelines",
+      "title": "Azure Devops Pipelines",
+      "description": "Best practices for Azure DevOps Pipeline YAML files",
+      "applyTo": "**/azure-pipelines.yml, **/azure-pipelines*.yml, **/*.pipeline.yml",
+      "applyToPatterns": [
+        "**/azure-pipelines.yml",
+        "**/azure-pipelines*.yml",
+        "**/*.pipeline.yml"
+      ],
+      "extensions": [
+        ".yml"
+      ],
+      "path": "instructions/azure-devops-pipelines.instructions.md",
+      "filename": "azure-devops-pipelines.instructions.md",
+      "lastUpdated": "2025-08-22T01:18:41+02:00"
+    },
+    {
+      "id": "azure-durable-functions-csharp",
+      "title": "Azure Durable Functions Csharp",
+      "description": "Guidelines and best practices for building Azure Durable Functions in C# using the isolated worker model",
+      "applyTo": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/host.json",
+        "**/local.settings.json",
+        "**/*.csproj"
+      ],
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/azure-durable-functions-csharp.instructions.md",
+      "filename": "azure-durable-functions-csharp.instructions.md",
+      "lastUpdated": "2026-04-10T10:15:17+05:30"
+    },
+    {
+      "id": "azure-functions-csharp",
+      "title": "Azure Functions Csharp",
+      "description": "Guidelines and best practices for building Azure Functions in C# using the isolated worker model",
+      "applyTo": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/host.json",
+        "**/local.settings.json",
+        "**/*.csproj"
+      ],
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/azure-functions-csharp.instructions.md",
+      "filename": "azure-functions-csharp.instructions.md",
+      "lastUpdated": "2026-04-10T10:15:17+05:30"
+    },
+    {
+      "id": "azure-functions-typescript",
+      "title": "Azure Functions Typescript",
+      "description": "TypeScript patterns for Azure Functions",
+      "applyTo": "**/*.ts, **/*.js, **/*.json",
+      "applyToPatterns": [
+        "**/*.ts",
+        "**/*.js",
+        "**/*.json"
+      ],
+      "extensions": [
+        ".ts",
+        ".js",
+        ".json"
+      ],
+      "path": "instructions/azure-functions-typescript.instructions.md",
+      "filename": "azure-functions-typescript.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "azure-iot-edge-architecture",
+      "title": "Azure Iot Edge Architecture",
+      "description": "Require Azure IoT Edge documentation review before proposing edge IoT architectures or Azure implementation guidance.",
+      "applyTo": "**/*.bicep,**/*.tf,**/*iot*.md,**/*smart-city*.md,**/*edge*.md",
+      "applyToPatterns": [
+        "**/*.bicep",
+        "**/*.tf",
+        "**/*iot*.md",
+        "**/*smart-city*.md",
+        "**/*edge*.md"
+      ],
+      "extensions": [
+        ".bicep",
+        ".tf",
+        ".md"
+      ],
+      "path": "instructions/azure-iot-edge-architecture.instructions.md",
+      "filename": "azure-iot-edge-architecture.instructions.md",
+      "lastUpdated": "2026-04-29T03:15:42+02:00"
+    },
+    {
+      "id": "azure-logic-apps-power-automate",
+      "title": "Azure Logic Apps Power Automate",
+      "description": "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
+      "applyTo": "**/*.json,**/*.logicapp.json,**/workflow.json,**/*-definition.json,**/*.flow.json",
+      "applyToPatterns": [
+        "**/*.json",
+        "**/*.logicapp.json",
+        "**/workflow.json",
+        "**/*-definition.json",
+        "**/*.flow.json"
+      ],
+      "extensions": [
+        ".json"
+      ],
+      "path": "instructions/azure-logic-apps-power-automate.instructions.md",
+      "filename": "azure-logic-apps-power-automate.instructions.md",
+      "lastUpdated": "2025-08-28T19:49:45-04:00"
+    },
+    {
+      "id": "azure-naming",
+      "title": "Azure Naming",
+      "description": "Azure resource naming conventions based on Microsoft CAF (Cloud Adoption Framework). Use when creating, reviewing, or suggesting names for Azure resources.",
+      "applyTo": "**/*.bicep,**/*.tf,**/*.tfvars,**/*.bicepparam,**/infra/**,**/infrastructure/**",
+      "applyToPatterns": [
+        "**/*.bicep",
+        "**/*.tf",
+        "**/*.tfvars",
+        "**/*.bicepparam",
+        "**/infra/**",
+        "**/infrastructure/**"
+      ],
+      "extensions": [
+        ".bicep",
+        ".tf",
+        ".tfvars",
+        ".bicepparam"
+      ],
+      "path": "instructions/azure-naming.instructions.md",
+      "filename": "azure-naming.instructions.md",
+      "lastUpdated": "2026-05-07T01:27:04+02:00"
+    },
+    {
+      "id": "azure-verified-modules-bicep",
+      "title": "Azure Verified Modules Bicep",
+      "description": "Azure Verified Modules (AVM) and Bicep",
+      "applyTo": "**/*.bicep, **/*.bicepparam",
+      "applyToPatterns": [
+        "**/*.bicep",
+        "**/*.bicepparam"
+      ],
+      "extensions": [
+        ".bicep",
+        ".bicepparam"
+      ],
+      "path": "instructions/azure-verified-modules-bicep.instructions.md",
+      "filename": "azure-verified-modules-bicep.instructions.md",
+      "lastUpdated": "2025-12-11T12:16:31+13:00"
+    },
+    {
+      "id": "azure-verified-modules-terraform",
+      "title": "Azure Verified Modules Terraform",
+      "description": " Azure Verified Modules (AVM) and Terraform",
+      "applyTo": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tfstate, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json",
+      "applyToPatterns": [
+        "**/*.terraform",
+        "**/*.tf",
+        "**/*.tfvars",
+        "**/*.tfstate",
+        "**/*.tflint.hcl",
+        "**/*.tf.json",
+        "**/*.tfvars.json"
+      ],
+      "extensions": [
+        ".terraform",
+        ".tf",
+        ".tfvars",
+        ".tfstate"
+      ],
+      "path": "instructions/azure-verified-modules-terraform.instructions.md",
+      "filename": "azure-verified-modules-terraform.instructions.md",
+      "lastUpdated": "2025-11-10T20:34:59-08:00"
+    },
+    {
+      "id": "bicep-code-best-practices",
+      "title": "Bicep Code Best Practices",
+      "description": "Infrastructure as Code with Bicep",
+      "applyTo": "**/*.bicep",
+      "applyToPatterns": [
+        "**/*.bicep"
+      ],
+      "extensions": [
+        ".bicep"
+      ],
+      "path": "instructions/bicep-code-best-practices.instructions.md",
+      "filename": "bicep-code-best-practices.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "blazor",
+      "title": "Blazor",
+      "description": "Blazor component and application patterns",
+      "applyTo": "**/*.razor, **/*.razor.cs, **/*.razor.css",
+      "applyToPatterns": [
+        "**/*.razor",
+        "**/*.razor.cs",
+        "**/*.razor.css"
+      ],
+      "extensions": [
+        ".razor"
+      ],
+      "path": "instructions/blazor.instructions.md",
+      "filename": "blazor.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "caveman-mode",
+      "title": "Caveman Mode",
+      "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/caveman-mode.instructions.md",
+      "filename": "caveman-mode.instructions.md",
+      "lastUpdated": "2026-04-28T06:30:56+02:00"
+    },
+    {
+      "id": "centos-linux",
+      "title": "Centos Linux",
+      "description": "Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/centos-linux.instructions.md",
+      "filename": "centos-linux.instructions.md",
+      "lastUpdated": "2026-01-31T22:19:32+02:00"
+    },
+    {
+      "id": "clojure",
+      "title": "Clojure",
+      "description": "Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.",
+      "applyTo": "**/*.{clj,cljs,cljc,bb,edn.mdx?}",
+      "applyToPatterns": [
+        "**/*.{clj",
+        "cljs",
+        "cljc",
+        "bb",
+        "edn.mdx?}"
+      ],
+      "extensions": [],
+      "path": "instructions/clojure.instructions.md",
+      "filename": "clojure.instructions.md",
+      "lastUpdated": "2025-10-08T02:19:01+02:00"
+    },
+    {
+      "id": "cmake-vcpkg",
+      "title": "Cmake Vcpkg",
+      "description": "C++ project configuration and package management",
+      "applyTo": "**/*.cmake, **/CMakeLists.txt, **/*.cpp, **/*.h, **/*.hpp",
+      "applyToPatterns": [
+        "**/*.cmake",
+        "**/CMakeLists.txt",
+        "**/*.cpp",
+        "**/*.h",
+        "**/*.hpp"
+      ],
+      "extensions": [
+        ".cmake",
+        ".cpp",
+        ".h",
+        ".hpp"
+      ],
+      "path": "instructions/cmake-vcpkg.instructions.md",
+      "filename": "cmake-vcpkg.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "code-review-generic",
+      "title": "Code Review Generic",
+      "description": "Generic code review instructions that can be customized for any project using GitHub Copilot",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/code-review-generic.instructions.md",
+      "filename": "code-review-generic.instructions.md",
+      "lastUpdated": "2026-02-06T11:16:26+01:00"
+    },
+    {
+      "id": "codexer",
+      "title": "Codexer",
+      "description": "Advanced Python research assistant with Context 7 MCP integration, focusing on speed, reliability, and 10+ years of software development expertise",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/codexer.instructions.md",
+      "filename": "codexer.instructions.md",
+      "lastUpdated": "2025-11-03T04:48:47+05:30"
+    },
+    {
+      "id": "coldfusion-cfc",
+      "title": "Coldfusion Cfc",
+      "description": "ColdFusion Coding Standards for CFC component and application patterns",
+      "applyTo": "**/*.cfc",
+      "applyToPatterns": [
+        "**/*.cfc"
+      ],
+      "extensions": [
+        ".cfc"
+      ],
+      "path": "instructions/coldfusion-cfc.instructions.md",
+      "filename": "coldfusion-cfc.instructions.md",
+      "lastUpdated": "2025-09-10T20:18:30-04:00"
+    },
+    {
+      "id": "coldfusion-cfm",
+      "title": "Coldfusion Cfm",
+      "description": "ColdFusion cfm files and application patterns",
+      "applyTo": "**/*.cfm",
+      "applyToPatterns": [
+        "**/*.cfm"
+      ],
+      "extensions": [
+        ".cfm"
+      ],
+      "path": "instructions/coldfusion-cfm.instructions.md",
+      "filename": "coldfusion-cfm.instructions.md",
+      "lastUpdated": "2025-09-10T20:18:30-04:00"
+    },
+    {
+      "id": "containerization-docker-best-practices",
+      "title": "Containerization Docker Best Practices",
+      "description": "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
+      "applyTo": "**/Dockerfile,**/Dockerfile.*,**/*.dockerfile,**/docker-compose*.yml,**/docker-compose*.yaml,**/compose*.yml,**/compose*.yaml",
+      "applyToPatterns": [
+        "**/Dockerfile",
+        "**/Dockerfile.*",
+        "**/*.dockerfile",
+        "**/docker-compose*.yml",
+        "**/docker-compose*.yaml",
+        "**/compose*.yml",
+        "**/compose*.yaml"
+      ],
+      "extensions": [
+        ".dockerfile",
+        ".yml",
+        ".yaml"
+      ],
+      "path": "instructions/containerization-docker-best-practices.instructions.md",
+      "filename": "containerization-docker-best-practices.instructions.md",
+      "lastUpdated": "2025-12-07T23:42:11+01:00"
+    },
+    {
+      "id": "context-engineering",
+      "title": "Context Engineering",
+      "description": "Guidelines for structuring code and projects to maximize GitHub Copilot effectiveness through better context management",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/context-engineering.instructions.md",
+      "filename": "context-engineering.instructions.md",
+      "lastUpdated": "2026-02-10T22:43:10+03:00"
+    },
+    {
+      "id": "context7",
+      "title": "Context7",
+      "description": "Use Context7 for authoritative external docs and API references when local context is insufficient",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/context7.instructions.md",
+      "filename": "context7.instructions.md",
+      "lastUpdated": "2026-02-15T07:04:00+08:00"
+    },
+    {
+      "id": "convert-cassandra-to-spring-data-cosmos",
+      "title": "Convert Cassandra To Spring Data Cosmos",
+      "description": "Step-by-step guide for converting Spring Boot Cassandra applications to use Azure Cosmos DB with Spring Data Cosmos",
+      "applyTo": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties,**/application*.yml,**/application*.conf",
+      "applyToPatterns": [
+        "**/*.java",
+        "**/pom.xml",
+        "**/build.gradle",
+        "**/application*.properties",
+        "**/application*.yml",
+        "**/application*.conf"
+      ],
+      "extensions": [
+        ".java",
+        ".properties",
+        ".yml",
+        ".conf"
+      ],
+      "path": "instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+      "filename": "convert-cassandra-to-spring-data-cosmos.instructions.md",
+      "lastUpdated": "2025-12-11T22:10:06Z"
+    },
+    {
+      "id": "convert-jpa-to-spring-data-cosmos",
+      "title": "Convert Jpa To Spring Data Cosmos",
+      "description": "Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos",
+      "applyTo": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties",
+      "applyToPatterns": [
+        "**/*.java",
+        "**/pom.xml",
+        "**/build.gradle",
+        "**/application*.properties"
+      ],
+      "extensions": [
+        ".java",
+        ".properties"
+      ],
+      "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+      "filename": "convert-jpa-to-spring-data-cosmos.instructions.md",
+      "lastUpdated": "2025-08-18T01:01:32+01:00"
+    },
+    {
+      "id": "copilot-thought-logging",
+      "title": "Copilot Thought Logging",
+      "description": "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/copilot-thought-logging.instructions.md",
+      "filename": "copilot-thought-logging.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "cpp-language-service-tools",
+      "title": "Cpp Language Service Tools",
+      "description": "You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools, GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code, you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always prefer these tools over manual code inspection, text search, or guessing.**",
+      "applyTo": "**/*.cpp, **/*.h, **/*.hpp, **/*.cc, **/*.cxx, **/*.c",
+      "applyToPatterns": [
+        "**/*.cpp",
+        "**/*.h",
+        "**/*.hpp",
+        "**/*.cc",
+        "**/*.cxx",
+        "**/*.c"
+      ],
+      "extensions": [
+        ".cpp",
+        ".h",
+        ".hpp",
+        ".cc",
+        ".cxx",
+        ".c"
+      ],
+      "path": "instructions/cpp-language-service-tools.instructions.md",
+      "filename": "cpp-language-service-tools.instructions.md",
+      "lastUpdated": "2026-02-19T04:36:30Z"
+    },
+    {
+      "id": "csharp",
+      "title": "Csharp",
+      "description": "Guidelines for building C# applications",
+      "applyTo": "**/*.cs",
+      "applyToPatterns": [
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp.instructions.md",
+      "filename": "csharp.instructions.md",
+      "lastUpdated": "2026-01-30T12:20:50-05:00"
+    },
+    {
+      "id": "csharp-ja",
+      "title": "Csharp Ja",
+      "description": "C# アプリケーション構築指針 by @tsubakimoto",
+      "applyTo": "**/*.cs",
+      "applyToPatterns": [
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp-ja.instructions.md",
+      "filename": "csharp-ja.instructions.md",
+      "lastUpdated": "2026-01-30T12:20:50-05:00"
+    },
+    {
+      "id": "csharp-ko",
+      "title": "Csharp Ko",
+      "description": "C# 애플리케이션 개발을 위한 코드 작성 규칙 by @jgkim999",
+      "applyTo": "**/*.cs",
+      "applyToPatterns": [
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".cs"
+      ],
+      "path": "instructions/csharp-ko.instructions.md",
+      "filename": "csharp-ko.instructions.md",
+      "lastUpdated": "2025-08-26T08:02:23+10:00"
+    },
+    {
+      "id": "csharp-mcp-server",
+      "title": "Csharp Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the C# SDK",
+      "applyTo": "**/*.cs, **/*.csproj",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/*.csproj"
+      ],
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/csharp-mcp-server.instructions.md",
+      "filename": "csharp-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T19:55:27-04:00"
+    },
+    {
+      "id": "csharp-razorpages",
+      "title": "Csharp Razorpages",
+      "description": "Razor Pages component and application patterns",
+      "applyTo": "**/*.cshtml, **/*.cshtml.cs",
+      "applyToPatterns": [
+        "**/*.cshtml",
+        "**/*.cshtml.cs"
+      ],
+      "extensions": [
+        ".cshtml"
+      ],
+      "path": "instructions/csharp-razorpages.instructions.md",
+      "filename": "csharp-razorpages.instructions.md",
+      "lastUpdated": "2026-04-28T08:09:16+02:00"
+    },
+    {
+      "id": "dart-n-flutter",
+      "title": "Dart N Flutter",
+      "description": "Instructions for writing Dart and Flutter code following the official recommendations.",
+      "applyTo": "**/*.dart",
+      "applyToPatterns": [
+        "**/*.dart"
+      ],
+      "extensions": [
+        ".dart"
+      ],
+      "path": "instructions/dart-n-flutter.instructions.md",
+      "filename": "dart-n-flutter.instructions.md",
+      "lastUpdated": "2025-08-07T20:48:15-03:00"
+    },
+    {
+      "id": "dataverse-python",
+      "title": "Dataverse Python",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python.instructions.md",
+      "filename": "dataverse-python.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-advanced-features",
+      "title": "Dataverse Python Advanced Features",
+      "description": "",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dataverse-python-advanced-features.instructions.md",
+      "filename": "dataverse-python-advanced-features.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-agentic-workflows",
+      "title": "Dataverse Python Agentic Workflows",
+      "description": "",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dataverse-python-agentic-workflows.instructions.md",
+      "filename": "dataverse-python-agentic-workflows.instructions.md",
+      "lastUpdated": "2026-01-08T17:17:20+13:00"
+    },
+    {
+      "id": "dataverse-python-api-reference",
+      "title": "Dataverse Python Api Reference",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-api-reference.instructions.md",
+      "filename": "dataverse-python-api-reference.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-authentication-security",
+      "title": "Dataverse Python Authentication Security",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-authentication-security.instructions.md",
+      "filename": "dataverse-python-authentication-security.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-best-practices",
+      "title": "Dataverse Python Best Practices",
+      "description": "",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dataverse-python-best-practices.instructions.md",
+      "filename": "dataverse-python-best-practices.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-error-handling",
+      "title": "Dataverse Python Error Handling",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-error-handling.instructions.md",
+      "filename": "dataverse-python-error-handling.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-file-operations",
+      "title": "Dataverse Python File Operations",
+      "description": "",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dataverse-python-file-operations.instructions.md",
+      "filename": "dataverse-python-file-operations.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-modules",
+      "title": "Dataverse Python Modules",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-modules.instructions.md",
+      "filename": "dataverse-python-modules.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-pandas-integration",
+      "title": "Dataverse Python Pandas Integration",
+      "description": "",
+      "applyTo": null,
+      "applyToPatterns": [],
+      "extensions": [],
+      "path": "instructions/dataverse-python-pandas-integration.instructions.md",
+      "filename": "dataverse-python-pandas-integration.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-performance-optimization",
+      "title": "Dataverse Python Performance Optimization",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-performance-optimization.instructions.md",
+      "filename": "dataverse-python-performance-optimization.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-real-world-usecases",
+      "title": "Dataverse Python Real World Usecases",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-real-world-usecases.instructions.md",
+      "filename": "dataverse-python-real-world-usecases.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-sdk",
+      "title": "Dataverse Python Sdk",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-sdk.instructions.md",
+      "filename": "dataverse-python-sdk.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "dataverse-python-testing-debugging",
+      "title": "Dataverse Python Testing Debugging",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/dataverse-python-testing-debugging.instructions.md",
+      "filename": "dataverse-python-testing-debugging.instructions.md",
+      "lastUpdated": "2025-12-04T18:38:34-05:00"
+    },
+    {
+      "id": "debian-linux",
+      "title": "Debian Linux",
+      "description": "Guidance for Debian-based Linux administration, apt workflows, and Debian policy conventions.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/debian-linux.instructions.md",
+      "filename": "debian-linux.instructions.md",
+      "lastUpdated": "2026-01-31T22:19:32+02:00"
+    },
+    {
+      "id": "declarative-agents-microsoft365",
+      "title": "Declarative Agents Microsoft365",
+      "description": "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
+      "applyTo": "**.json, **.ts, **.tsp, **manifest.json, **agent.json, **declarative-agent.json",
+      "applyToPatterns": [
+        "**.json",
+        "**.ts",
+        "**.tsp",
+        "**manifest.json",
+        "**agent.json",
+        "**declarative-agent.json"
+      ],
+      "extensions": [
+        ".json",
+        ".ts",
+        ".tsp"
+      ],
+      "path": "instructions/declarative-agents-microsoft365.instructions.md",
+      "filename": "declarative-agents-microsoft365.instructions.md",
+      "lastUpdated": "2025-09-11T20:22:18-04:00"
+    },
+    {
+      "id": "devbox-image-definition",
+      "title": "Devbox Image Definition",
+      "description": "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations",
+      "applyTo": "**/*.yaml",
+      "applyToPatterns": [
+        "**/*.yaml"
+      ],
+      "extensions": [
+        ".yaml"
+      ],
+      "path": "instructions/devbox-image-definition.instructions.md",
+      "filename": "devbox-image-definition.instructions.md",
+      "lastUpdated": "2025-08-07T00:56:46+01:00"
+    },
+    {
+      "id": "devops-core-principles",
+      "title": "Devops Core Principles",
+      "description": "Foundational instructions covering core DevOps principles, culture (CALMS), and key metrics (DORA) to guide GitHub Copilot in understanding and promoting effective software delivery.",
+      "applyTo": "*",
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/devops-core-principles.instructions.md",
+      "filename": "devops-core-principles.instructions.md",
+      "lastUpdated": "2025-07-13T22:54:32+01:00"
+    },
+    {
+      "id": "dotnet-architecture-good-practices",
+      "title": "Dotnet Architecture Good Practices",
+      "description": "DDD and .NET architecture guidelines",
+      "applyTo": "**/*.cs,**/*.csproj,**/Program.cs,**/*.razor",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/*.csproj",
+        "**/Program.cs",
+        "**/*.razor"
+      ],
+      "extensions": [
+        ".cs",
+        ".csproj",
+        ".razor"
+      ],
+      "path": "instructions/dotnet-architecture-good-practices.instructions.md",
+      "filename": "dotnet-architecture-good-practices.instructions.md",
+      "lastUpdated": "2025-07-22T19:52:39+02:00"
+    },
+    {
+      "id": "dotnet-framework",
+      "title": "Dotnet Framework",
+      "description": "Guidance for working with .NET Framework projects. Includes project structure, C# language version, NuGet management, and best practices.",
+      "applyTo": "**/*.csproj, **/*.cs",
+      "applyToPatterns": [
+        "**/*.csproj",
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".csproj",
+        ".cs"
+      ],
+      "path": "instructions/dotnet-framework.instructions.md",
+      "filename": "dotnet-framework.instructions.md",
+      "lastUpdated": "2025-08-07T19:49:28-04:00"
+    },
+    {
+      "id": "dotnet-maui",
+      "title": "Dotnet Maui",
+      "description": ".NET MAUI component and application patterns",
+      "applyTo": "**/*.xaml, **/*.cs",
+      "applyToPatterns": [
+        "**/*.xaml",
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".xaml",
+        ".cs"
+      ],
+      "path": "instructions/dotnet-maui.instructions.md",
+      "filename": "dotnet-maui.instructions.md",
+      "lastUpdated": "2025-12-14T16:35:58-06:00"
+    },
+    {
+      "id": "dotnet-maui-9-to-dotnet-maui-10-upgrade",
+      "title": "Dotnet Maui 9 To Dotnet Maui 10 Upgrade",
+      "description": "Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes, deprecated APIs, and migration strategies for ListView to CollectionView.",
+      "applyTo": "**/*.csproj, **/*.cs, **/*.xaml",
+      "applyToPatterns": [
+        "**/*.csproj",
+        "**/*.cs",
+        "**/*.xaml"
+      ],
+      "extensions": [
+        ".csproj",
+        ".cs",
+        ".xaml"
+      ],
+      "path": "instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+      "filename": "dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+      "lastUpdated": "2025-11-21T04:19:43+01:00"
+    },
+    {
+      "id": "dotnet-wpf",
+      "title": "Dotnet Wpf",
+      "description": ".NET WPF component and application patterns",
+      "applyTo": "**/*.xaml, **/*.cs",
+      "applyToPatterns": [
+        "**/*.xaml",
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".xaml",
+        ".cs"
+      ],
+      "path": "instructions/dotnet-wpf.instructions.md",
+      "filename": "dotnet-wpf.instructions.md",
+      "lastUpdated": "2025-07-24T22:49:04Z"
+    },
+    {
+      "id": "draw-io",
+      "title": "Draw Io",
+      "description": "Use when creating, editing, or reviewing draw.io diagrams and mxGraph XML in .drawio, .drawio.svg, or .drawio.png files.",
+      "applyTo": "**/*.drawio,**/*.drawio.svg,**/*.drawio.png",
+      "applyToPatterns": [
+        "**/*.drawio",
+        "**/*.drawio.svg",
+        "**/*.drawio.png"
+      ],
+      "extensions": [
+        ".drawio"
+      ],
+      "path": "instructions/draw-io.instructions.md",
+      "filename": "draw-io.instructions.md",
+      "lastUpdated": "2026-03-27T05:45:53+05:30"
+    },
+    {
+      "id": "fedora-linux",
+      "title": "Fedora Linux",
+      "description": "Guidance for Fedora (Red Hat family) systems, dnf workflows, SELinux, and modern systemd practices.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/fedora-linux.instructions.md",
+      "filename": "fedora-linux.instructions.md",
+      "lastUpdated": "2026-01-31T22:19:32+02:00"
+    },
+    {
+      "id": "genaiscript",
+      "title": "Genaiscript",
+      "description": "AI-powered script generation guidelines",
+      "applyTo": "**/*.genai.*",
+      "applyToPatterns": [
+        "**/*.genai.*"
+      ],
+      "extensions": [],
+      "path": "instructions/genaiscript.instructions.md",
+      "filename": "genaiscript.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "generate-modern-terraform-code-for-azure",
+      "title": "Generate Modern Terraform Code For Azure",
+      "description": "Guidelines for generating modern Terraform code for Azure",
+      "applyTo": "**/*.tf",
+      "applyToPatterns": [
+        "**/*.tf"
+      ],
+      "extensions": [
+        ".tf"
+      ],
+      "path": "instructions/generate-modern-terraform-code-for-azure.instructions.md",
+      "filename": "generate-modern-terraform-code-for-azure.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "gilfoyle-code-review",
+      "title": "Gilfoyle Code Review",
+      "description": "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley's most arrogant systems architect.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/gilfoyle-code-review.instructions.md",
+      "filename": "gilfoyle-code-review.instructions.md",
+      "lastUpdated": "2025-07-16T21:56:59-07:00"
+    },
+    {
+      "id": "github-actions-ci-cd-best-practices",
+      "title": "Github Actions Ci Cd Best Practices",
+      "description": "Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions. Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies, testing, and deployment strategies.",
+      "applyTo": ".github/workflows/*.yml,.github/workflows/*.yaml",
+      "applyToPatterns": [
+        ".github/workflows/*.yml",
+        ".github/workflows/*.yaml"
+      ],
+      "extensions": [
+        ".yml",
+        ".yaml"
+      ],
+      "path": "instructions/github-actions-ci-cd-best-practices.instructions.md",
+      "filename": "github-actions-ci-cd-best-practices.instructions.md",
+      "lastUpdated": "2026-03-22T18:37:40-05:00"
+    },
+    {
+      "id": "copilot-sdk-csharp",
+      "title": "GitHub Copilot SDK C# Instructions",
+      "description": "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+      "applyTo": "**.cs, **.csproj",
+      "applyToPatterns": [
+        "**.cs",
+        "**.csproj"
+      ],
+      "extensions": [
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/copilot-sdk-csharp.instructions.md",
+      "filename": "copilot-sdk-csharp.instructions.md",
+      "lastUpdated": "2026-03-22T17:11:19-07:00"
+    },
+    {
+      "id": "copilot-sdk-go",
+      "title": "GitHub Copilot SDK Go Instructions",
+      "description": "This file provides guidance on building Go applications using GitHub Copilot SDK.",
+      "applyTo": "**.go, go.mod",
+      "applyToPatterns": [
+        "**.go",
+        "go.mod"
+      ],
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/copilot-sdk-go.instructions.md",
+      "filename": "copilot-sdk-go.instructions.md",
+      "lastUpdated": "2026-04-01T19:02:19-04:00"
+    },
+    {
+      "id": "copilot-sdk-nodejs",
+      "title": "GitHub Copilot SDK Node.js Instructions",
+      "description": "This file provides guidance on building Node.js/TypeScript applications using GitHub Copilot SDK.",
+      "applyTo": "**.ts, **.js, package.json",
+      "applyToPatterns": [
+        "**.ts",
+        "**.js",
+        "package.json"
+      ],
+      "extensions": [
+        ".ts",
+        ".js"
+      ],
+      "path": "instructions/copilot-sdk-nodejs.instructions.md",
+      "filename": "copilot-sdk-nodejs.instructions.md",
+      "lastUpdated": "2026-03-31T07:45:10+08:00"
+    },
+    {
+      "id": "copilot-sdk-python",
+      "title": "GitHub Copilot SDK Python Instructions",
+      "description": "This file provides guidance on building Python applications using GitHub Copilot SDK.",
+      "applyTo": "**.py, pyproject.toml, setup.py",
+      "applyToPatterns": [
+        "**.py",
+        "pyproject.toml",
+        "setup.py"
+      ],
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/copilot-sdk-python.instructions.md",
+      "filename": "copilot-sdk-python.instructions.md",
+      "lastUpdated": "2026-03-22T17:11:19-07:00"
+    },
+    {
+      "id": "go",
+      "title": "Go",
+      "description": "Instructions for writing Go code following idiomatic Go practices and community standards",
+      "applyTo": "**/*.go,**/go.mod,**/go.sum",
+      "applyToPatterns": [
+        "**/*.go",
+        "**/go.mod",
+        "**/go.sum"
+      ],
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/go.instructions.md",
+      "filename": "go.instructions.md",
+      "lastUpdated": "2026-04-01T19:02:19-04:00"
+    },
+    {
+      "id": "go-mcp-server",
+      "title": "Go Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Go using the official github.com/modelcontextprotocol/go-sdk package.",
+      "applyTo": "**/*.go, **/go.mod, **/go.sum",
+      "applyToPatterns": [
+        "**/*.go",
+        "**/go.mod",
+        "**/go.sum"
+      ],
+      "extensions": [
+        ".go"
+      ],
+      "path": "instructions/go-mcp-server.instructions.md",
+      "filename": "go-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:03:04-04:00"
+    },
+    {
+      "id": "hooks",
+      "title": "Hooks",
+      "description": "Portable guidance for authoring safe, fast, and clear hooks and reusable hook examples",
+      "applyTo": ".github/hooks/**, hooks/**",
+      "applyToPatterns": [
+        ".github/hooks/**",
+        "hooks/**"
+      ],
+      "extensions": [],
+      "path": "instructions/hooks.instructions.md",
+      "filename": "hooks.instructions.md",
+      "lastUpdated": "2026-04-30T08:03:51+08:00"
+    },
+    {
+      "id": "html-css-style-color-guide",
+      "title": "Html Css Style Color Guide",
+      "description": "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.",
+      "applyTo": "**/*.html, **/*.css, **/*.js",
+      "applyToPatterns": [
+        "**/*.html",
+        "**/*.css",
+        "**/*.js"
+      ],
+      "extensions": [
+        ".html",
+        ".css",
+        ".js"
+      ],
+      "path": "instructions/html-css-style-color-guide.instructions.md",
+      "filename": "html-css-style-color-guide.instructions.md",
+      "lastUpdated": "2026-01-14T16:39:55-05:00"
+    },
+    {
+      "id": "instructions",
+      "title": "Instructions",
+      "description": "Guidelines for creating high-quality custom instruction files for GitHub Copilot",
+      "applyTo": "**/*.instructions.md",
+      "applyToPatterns": [
+        "**/*.instructions.md"
+      ],
+      "extensions": [],
+      "path": "instructions/instructions.instructions.md",
+      "filename": "instructions.instructions.md",
+      "lastUpdated": "2026-04-09T05:17:17+02:00"
+    },
+    {
+      "id": "java-11-to-java-17-upgrade",
+      "title": "Java 11 To Java 17 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 17 features since the release of Java 11.",
+      "applyTo": [
+        "*"
+      ],
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-11-to-java-17-upgrade.instructions.md",
+      "filename": "java-11-to-java-17-upgrade.instructions.md",
+      "lastUpdated": "2025-09-23T17:24:12-07:00"
+    },
+    {
+      "id": "java-17-to-java-21-upgrade",
+      "title": "Java 17 To Java 21 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 21 features since the release of Java 17.",
+      "applyTo": [
+        "*"
+      ],
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-17-to-java-21-upgrade.instructions.md",
+      "filename": "java-17-to-java-21-upgrade.instructions.md",
+      "lastUpdated": "2025-09-23T17:24:12-07:00"
+    },
+    {
+      "id": "java-21-to-java-25-upgrade",
+      "title": "Java 21 To Java 25 Upgrade",
+      "description": "Comprehensive best practices for adopting new Java 25 features since the release of Java 21.",
+      "applyTo": [
+        "*"
+      ],
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/java-21-to-java-25-upgrade.instructions.md",
+      "filename": "java-21-to-java-25-upgrade.instructions.md",
+      "lastUpdated": "2025-09-23T17:24:12-07:00"
+    },
+    {
+      "id": "java-mcp-server",
+      "title": "Java Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Java using the official MCP Java SDK with reactive streams and Spring integration.",
+      "applyTo": "**/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts",
+      "applyToPatterns": [
+        "**/*.java",
+        "**/pom.xml",
+        "**/build.gradle",
+        "**/build.gradle.kts"
+      ],
+      "extensions": [
+        ".java"
+      ],
+      "path": "instructions/java-mcp-server.instructions.md",
+      "filename": "java-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:11:02-04:00"
+    },
+    {
+      "id": "joyride-user-project",
+      "title": "Joyride User Project",
+      "description": "Expert assistance for Joyride User Script projects - REPL-driven ClojureScript and user space automation of VS Code",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/joyride-user-project.instructions.md",
+      "filename": "joyride-user-project.instructions.md",
+      "lastUpdated": "2025-10-14T01:10:27+02:00"
+    },
+    {
+      "id": "joyride-workspace-automation",
+      "title": "Joyride Workspace Automation",
+      "description": "Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces",
+      "applyTo": "**/.joyride/**",
+      "applyToPatterns": [
+        "**/.joyride/**"
+      ],
+      "extensions": [],
+      "path": "instructions/joyride-workspace-automation.instructions.md",
+      "filename": "joyride-workspace-automation.instructions.md",
+      "lastUpdated": "2025-10-14T01:10:27+02:00"
+    },
+    {
+      "id": "kotlin-mcp-server",
+      "title": "Kotlin Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library.",
+      "applyTo": "**/*.kt, **/*.kts, **/build.gradle.kts, **/settings.gradle.kts",
+      "applyToPatterns": [
+        "**/*.kt",
+        "**/*.kts",
+        "**/build.gradle.kts",
+        "**/settings.gradle.kts"
+      ],
+      "extensions": [
+        ".kt",
+        ".kts"
+      ],
+      "path": "instructions/kotlin-mcp-server.instructions.md",
+      "filename": "kotlin-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:03:59-04:00"
+    },
+    {
+      "id": "kubernetes-deployment-best-practices",
+      "title": "Kubernetes Deployment Best Practices",
+      "description": "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
+      "applyTo": "*",
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/kubernetes-deployment-best-practices.instructions.md",
+      "filename": "kubernetes-deployment-best-practices.instructions.md",
+      "lastUpdated": "2025-07-13T22:54:32+01:00"
+    },
+    {
+      "id": "kubernetes-manifests",
+      "title": "Kubernetes Manifests",
+      "description": "Best practices for Kubernetes YAML manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands",
+      "applyTo": "k8s/**/*.yaml,k8s/**/*.yml,manifests/**/*.yaml,manifests/**/*.yml,deploy/**/*.yaml,deploy/**/*.yml,charts/**/templates/**/*.yaml,charts/**/templates/**/*.yml",
+      "applyToPatterns": [
+        "k8s/**/*.yaml",
+        "k8s/**/*.yml",
+        "manifests/**/*.yaml",
+        "manifests/**/*.yml",
+        "deploy/**/*.yaml",
+        "deploy/**/*.yml",
+        "charts/**/templates/**/*.yaml",
+        "charts/**/templates/**/*.yml"
+      ],
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "path": "instructions/kubernetes-manifests.instructions.md",
+      "filename": "kubernetes-manifests.instructions.md",
+      "lastUpdated": "2026-01-09T18:41:01+02:00"
+    },
+    {
+      "id": "langchain-python",
+      "title": "Langchain Python",
+      "description": "Instructions for using LangChain with Python",
+      "applyTo": "**/*.py",
+      "applyToPatterns": [
+        "**/*.py"
+      ],
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/langchain-python.instructions.md",
+      "filename": "langchain-python.instructions.md",
+      "lastUpdated": "2025-10-09T03:48:36+05:30"
+    },
+    {
+      "id": "localization",
+      "title": "Localization",
+      "description": "Guidelines for localizing markdown documents",
+      "applyTo": "**/*.md",
+      "applyToPatterns": [
+        "**/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/localization.instructions.md",
+      "filename": "localization.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "lwc",
+      "title": "Lwc",
+      "description": "Guidelines and best practices for developing Lightning Web Components (LWC) on Salesforce Platform.",
+      "applyTo": "force-app/main/default/lwc/**",
+      "applyToPatterns": [
+        "force-app/main/default/lwc/**"
+      ],
+      "extensions": [],
+      "path": "instructions/lwc.instructions.md",
+      "filename": "lwc.instructions.md",
+      "lastUpdated": "2025-12-31T10:01:21+05:30"
+    },
+    {
+      "id": "makefile",
+      "title": "Makefile",
+      "description": "Best practices for authoring GNU Make Makefiles",
+      "applyTo": "**/Makefile, **/makefile, **/*.mk, **/GNUmakefile",
+      "applyToPatterns": [
+        "**/Makefile",
+        "**/makefile",
+        "**/*.mk",
+        "**/GNUmakefile"
+      ],
+      "extensions": [
+        ".mk"
+      ],
+      "path": "instructions/makefile.instructions.md",
+      "filename": "makefile.instructions.md",
+      "lastUpdated": "2025-11-15T14:58:31-08:00"
+    },
+    {
+      "id": "markdown",
+      "title": "Markdown",
+      "description": "Markdown formatting aligned to the CommonMark specification (0.31.2)",
+      "applyTo": "**/*.md",
+      "applyToPatterns": [
+        "**/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown.instructions.md",
+      "filename": "markdown.instructions.md",
+      "lastUpdated": "2026-03-24T11:31:15+13:00"
+    },
+    {
+      "id": "markdown-accessibility",
+      "title": "Markdown Accessibility",
+      "description": "Markdown accessibility guidelines based on GitHub's 5 best practices for inclusive documentation",
+      "applyTo": "**/*.md",
+      "applyToPatterns": [
+        "**/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-accessibility.instructions.md",
+      "filename": "markdown-accessibility.instructions.md",
+      "lastUpdated": "2026-04-27T23:37:57-04:00"
+    },
+    {
+      "id": "markdown-content-creation",
+      "title": "Markdown Content Creation",
+      "description": "Markdown guidelines and content creation standards for blog posts",
+      "applyTo": "**/*.md",
+      "applyToPatterns": [
+        "**/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-content-creation.instructions.md",
+      "filename": "markdown-content-creation.instructions.md",
+      "lastUpdated": "2026-03-24T11:31:15+13:00"
+    },
+    {
+      "id": "markdown-gfm",
+      "title": "Markdown Gfm",
+      "description": "Markdown formatting for GitHub-flavored markdown (GFM) files",
+      "applyTo": "**/*.md",
+      "applyToPatterns": [
+        "**/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/markdown-gfm.instructions.md",
+      "filename": "markdown-gfm.instructions.md",
+      "lastUpdated": "2026-03-24T11:31:15+13:00"
+    },
+    {
+      "id": "mcp-m365-copilot",
+      "title": "Mcp M365 Copilot",
+      "description": "Best practices for building MCP-based declarative agents and API plugins for Microsoft 365 Copilot with Model Context Protocol integration",
+      "applyTo": "**/{*mcp*,*agent*,*plugin*,declarativeAgent.json,ai-plugin.json,mcp.json,manifest.json}",
+      "applyToPatterns": [
+        "**/{*mcp*",
+        "*agent*",
+        "*plugin*",
+        "declarativeAgent.json",
+        "ai-plugin.json",
+        "mcp.json",
+        "manifest.json}"
+      ],
+      "extensions": [],
+      "path": "instructions/mcp-m365-copilot.instructions.md",
+      "filename": "mcp-m365-copilot.instructions.md",
+      "lastUpdated": "2025-12-23T13:16:55-05:00"
+    },
+    {
+      "id": "memory-bank",
+      "title": "Memory Bank",
+      "description": "",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/memory-bank.instructions.md",
+      "filename": "memory-bank.instructions.md",
+      "lastUpdated": "2025-07-07T02:56:34+03:00"
+    },
+    {
+      "id": "mongo-dba",
+      "title": "Mongo Dba",
+      "description": "Instructions for customizing GitHub Copilot behavior for MONGODB DBA chat mode.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/mongo-dba.instructions.md",
+      "filename": "mongo-dba.instructions.md",
+      "lastUpdated": "2025-11-25T16:24:55+11:00"
+    },
+    {
+      "id": "moodle",
+      "title": "Moodle",
+      "description": "Instructions for GitHub Copilot to generate code in a Moodle project context.",
+      "applyTo": "**/*.php, **/*.js, **/*.mustache, **/*.xml, **/*.css, **/*.scss",
+      "applyToPatterns": [
+        "**/*.php",
+        "**/*.js",
+        "**/*.mustache",
+        "**/*.xml",
+        "**/*.css",
+        "**/*.scss"
+      ],
+      "extensions": [
+        ".php",
+        ".js",
+        ".mustache",
+        ".xml",
+        ".css",
+        ".scss"
+      ],
+      "path": "instructions/moodle.instructions.md",
+      "filename": "moodle.instructions.md",
+      "lastUpdated": "2026-02-17T09:05:53+01:00"
+    },
+    {
+      "id": "ms-sql-dba",
+      "title": "Ms Sql Dba",
+      "description": "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/ms-sql-dba.instructions.md",
+      "filename": "ms-sql-dba.instructions.md",
+      "lastUpdated": "2025-11-25T16:24:55+11:00"
+    },
+    {
+      "id": "nestjs",
+      "title": "Nestjs",
+      "description": "NestJS development standards and best practices for building scalable Node.js server-side applications",
+      "applyTo": "**/*.ts, **/*.js, **/*.json, **/*.spec.ts, **/*.e2e-spec.ts",
+      "applyToPatterns": [
+        "**/*.ts",
+        "**/*.js",
+        "**/*.json",
+        "**/*.spec.ts",
+        "**/*.e2e-spec.ts"
+      ],
+      "extensions": [
+        ".ts",
+        ".js",
+        ".json"
+      ],
+      "path": "instructions/nestjs.instructions.md",
+      "filename": "nestjs.instructions.md",
+      "lastUpdated": "2025-07-28T02:11:09+02:00"
+    },
+    {
+      "id": "nextjs",
+      "title": "Nextjs",
+      "description": "Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries (aligned with Next.js 16.1.1).",
+      "applyTo": "**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css",
+      "applyToPatterns": [
+        "**/*.tsx",
+        "**/*.ts",
+        "**/*.jsx",
+        "**/*.js",
+        "**/*.css"
+      ],
+      "extensions": [
+        ".tsx",
+        ".ts",
+        ".jsx",
+        ".js",
+        ".css"
+      ],
+      "path": "instructions/nextjs.instructions.md",
+      "filename": "nextjs.instructions.md",
+      "lastUpdated": "2026-03-04T22:44:48-06:00"
+    },
+    {
+      "id": "nextjs-tailwind",
+      "title": "Nextjs Tailwind",
+      "description": "Next.js + Tailwind development standards and instructions",
+      "applyTo": "**/*.tsx, **/*.ts, **/*.jsx, **/*.js, **/*.css",
+      "applyToPatterns": [
+        "**/*.tsx",
+        "**/*.ts",
+        "**/*.jsx",
+        "**/*.js",
+        "**/*.css"
+      ],
+      "extensions": [
+        ".tsx",
+        ".ts",
+        ".jsx",
+        ".js",
+        ".css"
+      ],
+      "path": "instructions/nextjs-tailwind.instructions.md",
+      "filename": "nextjs-tailwind.instructions.md",
+      "lastUpdated": "2025-07-02T18:18:52-07:00"
+    },
+    {
+      "id": "no-heredoc",
+      "title": "No Heredoc File Operations",
+      "description": "Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/no-heredoc.instructions.md",
+      "filename": "no-heredoc.instructions.md",
+      "lastUpdated": "2026-02-05T10:04:32-05:00"
+    },
+    {
+      "id": "nodejs-javascript-vitest",
+      "title": "Nodejs Javascript Vitest",
+      "description": "Guidelines for writing Node.js and JavaScript code with Vitest testing",
+      "applyTo": "**/*.js, **/*.mjs, **/*.cjs",
+      "applyToPatterns": [
+        "**/*.js",
+        "**/*.mjs",
+        "**/*.cjs"
+      ],
+      "extensions": [
+        ".js",
+        ".mjs",
+        ".cjs"
+      ],
+      "path": "instructions/nodejs-javascript-vitest.instructions.md",
+      "filename": "nodejs-javascript-vitest.instructions.md",
+      "lastUpdated": "2025-07-13T15:00:35-07:00"
+    },
+    {
+      "id": "object-calisthenics",
+      "title": "Object Calisthenics",
+      "description": "Enforces Object Calisthenics principles for business domain code to ensure clean, maintainable, and robust code",
+      "applyTo": "**/*.{cs,ts,java}",
+      "applyToPatterns": [
+        "**/*.{cs",
+        "ts",
+        "java}"
+      ],
+      "extensions": [],
+      "path": "instructions/object-calisthenics.instructions.md",
+      "filename": "object-calisthenics.instructions.md",
+      "lastUpdated": "2025-12-18T23:09:43+01:00"
+    },
+    {
+      "id": "oop-design-patterns",
+      "title": "Oop Design Patterns",
+      "description": "Best practices for applying Object-Oriented Programming (OOP) design patterns, including Gang of Four (GoF) patterns and SOLID principles, to ensure clean, maintainable, and scalable code.",
+      "applyTo": "**/*.py, **/*.java, **/*.ts, **/*.js, **/*.cs",
+      "applyToPatterns": [
+        "**/*.py",
+        "**/*.java",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.cs"
+      ],
+      "extensions": [
+        ".py",
+        ".java",
+        ".ts",
+        ".js",
+        ".cs"
+      ],
+      "path": "instructions/oop-design-patterns.instructions.md",
+      "filename": "oop-design-patterns.instructions.md",
+      "lastUpdated": "2026-03-16T00:43:53+01:00"
+    },
+    {
+      "id": "oqtane",
+      "title": "Oqtane",
+      "description": "Oqtane Module patterns",
+      "applyTo": "**/*.razor, **/*.razor.cs, **/*.razor.css",
+      "applyToPatterns": [
+        "**/*.razor",
+        "**/*.razor.cs",
+        "**/*.razor.css"
+      ],
+      "extensions": [
+        ".razor"
+      ],
+      "path": "instructions/oqtane.instructions.md",
+      "filename": "oqtane.instructions.md",
+      "lastUpdated": "2026-02-02T00:00:31-06:00"
+    },
+    {
+      "id": "pcf-alm",
+      "title": "Pcf Alm",
+      "description": "Application lifecycle management (ALM) for PCF code components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj,sln}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj",
+        "sln}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-alm.instructions.md",
+      "filename": "pcf-alm.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-api-reference",
+      "title": "Pcf Api Reference",
+      "description": "Complete PCF API reference with all interfaces and their availability in model-driven and canvas apps",
+      "applyTo": "**/*.{ts,tsx,js}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-api-reference.instructions.md",
+      "filename": "pcf-api-reference.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-best-practices",
+      "title": "Pcf Best Practices",
+      "description": "Best practices and guidance for developing PCF code components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj,css,html}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj",
+        "css",
+        "html}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-best-practices.instructions.md",
+      "filename": "pcf-best-practices.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-canvas-apps",
+      "title": "Pcf Canvas Apps",
+      "description": "Code components for canvas apps implementation, security, and configuration",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-canvas-apps.instructions.md",
+      "filename": "pcf-canvas-apps.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-code-components",
+      "title": "Pcf Code Components",
+      "description": "Understanding code components structure and implementation",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-code-components.instructions.md",
+      "filename": "pcf-code-components.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-community-resources",
+      "title": "Pcf Community Resources",
+      "description": "PCF community resources including gallery, videos, blogs, and development tools",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-community-resources.instructions.md",
+      "filename": "pcf-community-resources.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-dependent-libraries",
+      "title": "Pcf Dependent Libraries",
+      "description": "Using dependent libraries in PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-dependent-libraries.instructions.md",
+      "filename": "pcf-dependent-libraries.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-events",
+      "title": "Pcf Events",
+      "description": "Define and handle custom events in PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-events.instructions.md",
+      "filename": "pcf-events.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-fluent-modern-theming",
+      "title": "Pcf Fluent Modern Theming",
+      "description": "Style components with modern theming using Fluent UI",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-fluent-modern-theming.instructions.md",
+      "filename": "pcf-fluent-modern-theming.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-limitations",
+      "title": "Pcf Limitations",
+      "description": "Limitations and restrictions of Power Apps Component Framework",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-limitations.instructions.md",
+      "filename": "pcf-limitations.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-manifest-schema",
+      "title": "Pcf Manifest Schema",
+      "description": "Complete manifest schema reference for PCF components with all available XML elements",
+      "applyTo": "**/*.xml",
+      "applyToPatterns": [
+        "**/*.xml"
+      ],
+      "extensions": [
+        ".xml"
+      ],
+      "path": "instructions/pcf-manifest-schema.instructions.md",
+      "filename": "pcf-manifest-schema.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-model-driven-apps",
+      "title": "Pcf Model Driven Apps",
+      "description": "Code components for model-driven apps implementation and configuration",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-model-driven-apps.instructions.md",
+      "filename": "pcf-model-driven-apps.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-overview",
+      "title": "Pcf Overview",
+      "description": "Power Apps Component Framework overview and fundamentals",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-overview.instructions.md",
+      "filename": "pcf-overview.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-power-pages",
+      "title": "Pcf Power Pages",
+      "description": "Using code components in Power Pages sites",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-power-pages.instructions.md",
+      "filename": "pcf-power-pages.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-react-platform-libraries",
+      "title": "Pcf React Platform Libraries",
+      "description": "React controls and platform libraries for PCF components",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-react-platform-libraries.instructions.md",
+      "filename": "pcf-react-platform-libraries.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-sample-components",
+      "title": "Pcf Sample Components",
+      "description": "How to use and run PCF sample components from the PowerApps-Samples repository",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-sample-components.instructions.md",
+      "filename": "pcf-sample-components.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "pcf-tooling",
+      "title": "Pcf Tooling",
+      "description": "Get Microsoft Power Platform CLI tooling for Power Apps Component Framework",
+      "applyTo": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "json",
+        "xml",
+        "pcfproj",
+        "csproj}"
+      ],
+      "extensions": [],
+      "path": "instructions/pcf-tooling.instructions.md",
+      "filename": "pcf-tooling.instructions.md",
+      "lastUpdated": "2025-11-23T17:45:23-05:00"
+    },
+    {
+      "id": "performance-optimization",
+      "title": "Performance Optimization",
+      "description": "Comprehensive web performance standards based on Core Web Vitals (LCP, INP, CLS), with 50+ anti-patterns, detection regex, framework-specific fixes for modern web frameworks, and modern API guidance.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/performance-optimization.instructions.md",
+      "filename": "performance-optimization.instructions.md",
+      "lastUpdated": "2026-04-10T00:40:42-04:00"
+    },
+    {
+      "id": "php-mcp-server",
+      "title": "Php Mcp Server",
+      "description": "Best practices for building Model Context Protocol servers in PHP using the official PHP SDK with attribute-based discovery and multiple transport options",
+      "applyTo": "**/*.php",
+      "applyToPatterns": [
+        "**/*.php"
+      ],
+      "extensions": [
+        ".php"
+      ],
+      "path": "instructions/php-mcp-server.instructions.md",
+      "filename": "php-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-19T19:03:10-04:00"
+    },
+    {
+      "id": "php-symfony",
+      "title": "Php Symfony",
+      "description": "Symfony development standards aligned with official Symfony Best Practices",
+      "applyTo": "**/*.php, **/*.yaml, **/*.yml, **/*.xml, **/*.twig",
+      "applyToPatterns": [
+        "**/*.php",
+        "**/*.yaml",
+        "**/*.yml",
+        "**/*.xml",
+        "**/*.twig"
+      ],
+      "extensions": [
+        ".php",
+        ".yaml",
+        ".yml",
+        ".xml",
+        ".twig"
+      ],
+      "path": "instructions/php-symfony.instructions.md",
+      "filename": "php-symfony.instructions.md",
+      "lastUpdated": "2026-01-06T10:52:36+02:00"
+    },
+    {
+      "id": "playwright-dotnet",
+      "title": "Playwright Dotnet",
+      "description": "Playwright .NET test generation instructions",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/playwright-dotnet.instructions.md",
+      "filename": "playwright-dotnet.instructions.md",
+      "lastUpdated": "2025-11-20T19:11:31-08:00"
+    },
+    {
+      "id": "playwright-python",
+      "title": "Playwright Python",
+      "description": "Playwright Python AI test generation instructions based on official documentation.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/playwright-python.instructions.md",
+      "filename": "playwright-python.instructions.md",
+      "lastUpdated": "2025-08-07T08:35:26+09:00"
+    },
+    {
+      "id": "playwright-typescript",
+      "title": "Playwright Typescript",
+      "description": "Playwright test generation instructions",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/playwright-typescript.instructions.md",
+      "filename": "playwright-typescript.instructions.md",
+      "lastUpdated": "2025-07-09T03:31:16+02:00"
+    },
+    {
+      "id": "power-apps-canvas-yaml",
+      "title": "Power Apps Canvas Yaml",
+      "description": "Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.",
+      "applyTo": "**/*.{yaml,yml,md,pa.yaml}",
+      "applyToPatterns": [
+        "**/*.{yaml",
+        "yml",
+        "md",
+        "pa.yaml}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-apps-canvas-yaml.instructions.md",
+      "filename": "power-apps-canvas-yaml.instructions.md",
+      "lastUpdated": "2025-08-07T19:50:12-04:00"
+    },
+    {
+      "id": "power-apps-code-apps",
+      "title": "Power Apps Code Apps",
+      "description": "Power Apps Code Apps development standards and best practices for TypeScript, React, and Power Platform integration",
+      "applyTo": "**/*.{ts,tsx,js,jsx}, **/vite.config.*, **/package.json, **/tsconfig.json, **/power.config.json",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "jsx}",
+        "**/vite.config.*",
+        "**/package.json",
+        "**/tsconfig.json",
+        "**/power.config.json"
+      ],
+      "extensions": [],
+      "path": "instructions/power-apps-code-apps.instructions.md",
+      "filename": "power-apps-code-apps.instructions.md",
+      "lastUpdated": "2026-02-11T12:34:10-06:00"
+    },
+    {
+      "id": "power-bi-custom-visuals-development",
+      "title": "Power Bi Custom Visuals Development",
+      "description": "Comprehensive Power BI custom visuals development guide covering React, D3.js integration, TypeScript patterns, testing frameworks, and advanced visualization techniques.",
+      "applyTo": "**/*.{ts,tsx,js,jsx,json,less,css}",
+      "applyToPatterns": [
+        "**/*.{ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "less",
+        "css}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-custom-visuals-development.instructions.md",
+      "filename": "power-bi-custom-visuals-development.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-bi-data-modeling-best-practices",
+      "title": "Power Bi Data Modeling Best Practices",
+      "description": "Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles.",
+      "applyTo": "**/*.{pbix,md,json,txt}",
+      "applyToPatterns": [
+        "**/*.{pbix",
+        "md",
+        "json",
+        "txt}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-data-modeling-best-practices.instructions.md",
+      "filename": "power-bi-data-modeling-best-practices.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-bi-dax-best-practices",
+      "title": "Power Bi Dax Best Practices",
+      "description": "Comprehensive Power BI DAX best practices and patterns based on Microsoft guidance for creating efficient, maintainable, and performant DAX formulas.",
+      "applyTo": "**/*.{pbix,dax,md,txt}",
+      "applyToPatterns": [
+        "**/*.{pbix",
+        "dax",
+        "md",
+        "txt}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-dax-best-practices.instructions.md",
+      "filename": "power-bi-dax-best-practices.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-bi-devops-alm-best-practices",
+      "title": "Power Bi Devops Alm Best Practices",
+      "description": "Comprehensive guide for Power BI DevOps, Application Lifecycle Management (ALM), CI/CD pipelines, deployment automation, and version control best practices.",
+      "applyTo": "**/*.{yml,yaml,ps1,json,pbix,pbir}",
+      "applyToPatterns": [
+        "**/*.{yml",
+        "yaml",
+        "ps1",
+        "json",
+        "pbix",
+        "pbir}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-devops-alm-best-practices.instructions.md",
+      "filename": "power-bi-devops-alm-best-practices.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-bi-report-design-best-practices",
+      "title": "Power Bi Report Design Best Practices",
+      "description": "Comprehensive Power BI report design and visualization best practices based on Microsoft guidance for creating effective, accessible, and performant reports and dashboards.",
+      "applyTo": "**/*.{pbix,md,json,txt}",
+      "applyToPatterns": [
+        "**/*.{pbix",
+        "md",
+        "json",
+        "txt}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-report-design-best-practices.instructions.md",
+      "filename": "power-bi-report-design-best-practices.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-bi-security-rls-best-practices",
+      "title": "Power Bi Security Rls Best Practices",
+      "description": "Comprehensive Power BI Row-Level Security (RLS) and advanced security patterns implementation guide with dynamic security, best practices, and governance strategies.",
+      "applyTo": "**/*.{pbix,dax,md,txt,json,csharp,powershell}",
+      "applyToPatterns": [
+        "**/*.{pbix",
+        "dax",
+        "md",
+        "txt",
+        "json",
+        "csharp",
+        "powershell}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-bi-security-rls-best-practices.instructions.md",
+      "filename": "power-bi-security-rls-best-practices.instructions.md",
+      "lastUpdated": "2025-10-15T19:05:56-04:00"
+    },
+    {
+      "id": "power-platform-connector",
+      "title": "Power Platform Connector",
+      "description": "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
+      "applyTo": "**/*.{json,md}",
+      "applyToPatterns": [
+        "**/*.{json",
+        "md}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-platform-connector.instructions.md",
+      "filename": "power-platform-connector.instructions.md",
+      "lastUpdated": "2025-07-13T22:54:32+01:00"
+    },
+    {
+      "id": "power-platform-mcp-development",
+      "title": "Power Platform Mcp Development",
+      "description": "Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration for Microsoft Copilot Studio",
+      "applyTo": "**/*.{json,csx,md}",
+      "applyToPatterns": [
+        "**/*.{json",
+        "csx",
+        "md}"
+      ],
+      "extensions": [],
+      "path": "instructions/power-platform-mcp-development.instructions.md",
+      "filename": "power-platform-mcp-development.instructions.md",
+      "lastUpdated": "2025-10-09T18:42:11-04:00"
+    },
+    {
+      "id": "powershell",
+      "title": "Powershell",
+      "description": "PowerShell cmdlet and scripting best practices based on Microsoft guidelines",
+      "applyTo": "**/*.ps1,**/*.psm1",
+      "applyToPatterns": [
+        "**/*.ps1",
+        "**/*.psm1"
+      ],
+      "extensions": [
+        ".ps1",
+        ".psm1"
+      ],
+      "path": "instructions/powershell.instructions.md",
+      "filename": "powershell.instructions.md",
+      "lastUpdated": "2026-04-09T09:55:07+10:00"
+    },
+    {
+      "id": "powershell-pester-5",
+      "title": "Powershell Pester 5",
+      "description": "PowerShell Pester testing best practices based on Pester v5 conventions",
+      "applyTo": "**/*.Tests.ps1",
+      "applyToPatterns": [
+        "**/*.Tests.ps1"
+      ],
+      "extensions": [],
+      "path": "instructions/powershell-pester-5.instructions.md",
+      "filename": "powershell-pester-5.instructions.md",
+      "lastUpdated": "2025-07-24T19:48:27-07:00"
+    },
+    {
+      "id": "prompt",
+      "title": "Prompt",
+      "description": "Guidelines for creating high-quality prompt files for GitHub Copilot",
+      "applyTo": "**/*.prompt.md",
+      "applyToPatterns": [
+        "**/*.prompt.md"
+      ],
+      "extensions": [],
+      "path": "instructions/prompt.instructions.md",
+      "filename": "prompt.instructions.md",
+      "lastUpdated": "2026-01-08T18:02:10+08:00"
+    },
+    {
+      "id": "python-mcp-server",
+      "title": "Python Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the Python SDK",
+      "applyTo": "**/*.py, **/pyproject.toml, **/requirements.txt",
+      "applyToPatterns": [
+        "**/*.py",
+        "**/pyproject.toml",
+        "**/requirements.txt"
+      ],
+      "extensions": [
+        ".py"
+      ],
+      "path": "instructions/python-mcp-server.instructions.md",
+      "filename": "python-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:02:00-04:00"
+    },
+    {
+      "id": "quarkus",
+      "title": "Quarkus",
+      "description": "Quarkus development standards and instructions",
+      "applyTo": "*",
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/quarkus.instructions.md",
+      "filename": "quarkus.instructions.md",
+      "lastUpdated": "2025-07-07T02:05:46+02:00"
+    },
+    {
+      "id": "quarkus-mcp-server-sse",
+      "title": "Quarkus Mcp Server Sse",
+      "description": "Quarkus and MCP Server with HTTP SSE transport development standards and instructions",
+      "applyTo": "*",
+      "applyToPatterns": [
+        "*"
+      ],
+      "extensions": [],
+      "path": "instructions/quarkus-mcp-server-sse.instructions.md",
+      "filename": "quarkus-mcp-server-sse.instructions.md",
+      "lastUpdated": "2025-07-14T15:02:23-07:00"
+    },
+    {
+      "id": "r",
+      "title": "R",
+      "description": "R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.",
+      "applyTo": "**/*.R, **/*.r, **/*.Rmd, **/*.rmd, **/*.qmd",
+      "applyToPatterns": [
+        "**/*.R",
+        "**/*.r",
+        "**/*.Rmd",
+        "**/*.rmd",
+        "**/*.qmd"
+      ],
+      "extensions": [
+        ".R",
+        ".r",
+        ".Rmd",
+        ".rmd",
+        ".qmd"
+      ],
+      "path": "instructions/r.instructions.md",
+      "filename": "r.instructions.md",
+      "lastUpdated": "2025-10-26T19:42:47-04:00"
+    },
+    {
+      "id": "ruby-mcp-server",
+      "title": "Ruby Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Ruby using the official MCP Ruby SDK gem.",
+      "applyTo": "**/*.rb, **/Gemfile, **/*.gemspec, **/Rakefile",
+      "applyToPatterns": [
+        "**/*.rb",
+        "**/Gemfile",
+        "**/*.gemspec",
+        "**/Rakefile"
+      ],
+      "extensions": [
+        ".rb",
+        ".gemspec"
+      ],
+      "path": "instructions/ruby-mcp-server.instructions.md",
+      "filename": "ruby-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:12:10-04:00"
+    },
+    {
+      "id": "ruby-on-rails",
+      "title": "Ruby On Rails",
+      "description": "Ruby on Rails coding conventions and guidelines",
+      "applyTo": "**/*.rb",
+      "applyToPatterns": [
+        "**/*.rb"
+      ],
+      "extensions": [
+        ".rb"
+      ],
+      "path": "instructions/ruby-on-rails.instructions.md",
+      "filename": "ruby-on-rails.instructions.md",
+      "lastUpdated": "2025-07-08T04:07:07+02:00"
+    },
+    {
+      "id": "rust",
+      "title": "Rust",
+      "description": "Rust programming language coding conventions and best practices",
+      "applyTo": "**/*.rs",
+      "applyToPatterns": [
+        "**/*.rs"
+      ],
+      "extensions": [
+        ".rs"
+      ],
+      "path": "instructions/rust.instructions.md",
+      "filename": "rust.instructions.md",
+      "lastUpdated": "2025-08-08T01:30:16+02:00"
+    },
+    {
+      "id": "rust-mcp-server",
+      "title": "Rust Mcp Server",
+      "description": "Best practices for building Model Context Protocol servers in Rust using the official rmcp SDK with async/await patterns",
+      "applyTo": "**/*.rs",
+      "applyToPatterns": [
+        "**/*.rs"
+      ],
+      "extensions": [
+        ".rs"
+      ],
+      "path": "instructions/rust-mcp-server.instructions.md",
+      "filename": "rust-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:18:38-04:00"
+    },
+    {
+      "id": "scala2",
+      "title": "Scala2",
+      "description": "Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.",
+      "applyTo": "**/*.scala, **/build.sbt, **/build.sc",
+      "applyToPatterns": [
+        "**/*.scala",
+        "**/build.sbt",
+        "**/build.sc"
+      ],
+      "extensions": [
+        ".scala"
+      ],
+      "path": "instructions/scala2.instructions.md",
+      "filename": "scala2.instructions.md",
+      "lastUpdated": "2026-03-10T17:05:08-07:00"
+    },
+    {
+      "id": "security-and-owasp",
+      "title": "Security And Owasp",
+      "description": "Comprehensive secure coding standards based on OWASP Top 10 2025, with 55+ anti-patterns, detection regex, framework-specific fixes for modern web and backend frameworks, and AI/LLM security guidance.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/security-and-owasp.instructions.md",
+      "filename": "security-and-owasp.instructions.md",
+      "lastUpdated": "2026-04-10T00:40:42-04:00"
+    },
+    {
+      "id": "self-explanatory-code-commenting",
+      "title": "Self Explanatory Code Commenting",
+      "description": "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/self-explanatory-code-commenting.instructions.md",
+      "filename": "self-explanatory-code-commenting.instructions.md",
+      "lastUpdated": "2025-07-14T07:23:10+09:00"
+    },
+    {
+      "id": "shell",
+      "title": "Shell",
+      "description": "Shell scripting best practices and conventions for bash, sh, zsh, and other shells",
+      "applyTo": "**/*.sh",
+      "applyToPatterns": [
+        "**/*.sh"
+      ],
+      "extensions": [
+        ".sh"
+      ],
+      "path": "instructions/shell.instructions.md",
+      "filename": "shell.instructions.md",
+      "lastUpdated": "2025-11-09T15:35:55-08:00"
+    },
+    {
+      "id": "spec-driven-workflow-v1",
+      "title": "Spec Driven Workflow V1",
+      "description": "Specification-Driven Workflow v1 provides a structured approach to software development, ensuring that requirements are clearly defined, designs are meticulously planned, and implementations are thoroughly documented and validated.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/spec-driven-workflow-v1.instructions.md",
+      "filename": "spec-driven-workflow-v1.instructions.md",
+      "lastUpdated": "2025-07-18T04:11:44+05:00"
+    },
+    {
+      "id": "springboot",
+      "title": "Springboot",
+      "description": "Guidelines for building Spring Boot base applications",
+      "applyTo": "**/*.java, **/*.kt",
+      "applyToPatterns": [
+        "**/*.java",
+        "**/*.kt"
+      ],
+      "extensions": [
+        ".java",
+        ".kt"
+      ],
+      "path": "instructions/springboot.instructions.md",
+      "filename": "springboot.instructions.md",
+      "lastUpdated": "2025-10-16T04:33:40+05:30"
+    },
+    {
+      "id": "springboot-4-migration",
+      "title": "Springboot 4 Migration",
+      "description": "Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL and version catalogs",
+      "applyTo": "**/*.java, **/*.kt, **/build.gradle.kts, **/build.gradle, **/settings.gradle.kts, **/gradle/libs.versions.toml, **/*.properties, **/*.yml, **/*.yaml",
+      "applyToPatterns": [
+        "**/*.java",
+        "**/*.kt",
+        "**/build.gradle.kts",
+        "**/build.gradle",
+        "**/settings.gradle.kts",
+        "**/gradle/libs.versions.toml",
+        "**/*.properties",
+        "**/*.yml",
+        "**/*.yaml"
+      ],
+      "extensions": [
+        ".java",
+        ".kt",
+        ".properties",
+        ".yml",
+        ".yaml"
+      ],
+      "path": "instructions/springboot-4-migration.instructions.md",
+      "filename": "springboot-4-migration.instructions.md",
+      "lastUpdated": "2026-05-07T21:24:50-05:00"
+    },
+    {
+      "id": "sql-sp-generation",
+      "title": "Sql Sp Generation",
+      "description": "Guidelines for generating SQL statements and stored procedures",
+      "applyTo": "**/*.sql",
+      "applyToPatterns": [
+        "**/*.sql"
+      ],
+      "extensions": [
+        ".sql"
+      ],
+      "path": "instructions/sql-sp-generation.instructions.md",
+      "filename": "sql-sp-generation.instructions.md",
+      "lastUpdated": "2025-08-03T20:33:47-04:00"
+    },
+    {
+      "id": "svelte",
+      "title": "Svelte",
+      "description": "Svelte 5 and SvelteKit development standards and best practices for component-based user interfaces and full-stack applications",
+      "applyTo": "**/*.svelte, **/*.ts, **/*.js, **/*.css, **/*.scss, **/*.json",
+      "applyToPatterns": [
+        "**/*.svelte",
+        "**/*.ts",
+        "**/*.js",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.json"
+      ],
+      "extensions": [
+        ".svelte",
+        ".ts",
+        ".js",
+        ".css",
+        ".scss",
+        ".json"
+      ],
+      "path": "instructions/svelte.instructions.md",
+      "filename": "svelte.instructions.md",
+      "lastUpdated": "2026-01-15T14:13:10-08:00"
+    },
+    {
+      "id": "swift-mcp-server",
+      "title": "Swift Mcp Server",
+      "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Swift using the official MCP Swift SDK package.",
+      "applyTo": "**/*.swift, **/Package.swift, **/Package.resolved",
+      "applyToPatterns": [
+        "**/*.swift",
+        "**/Package.swift",
+        "**/Package.resolved"
+      ],
+      "extensions": [
+        ".swift"
+      ],
+      "path": "instructions/swift-mcp-server.instructions.md",
+      "filename": "swift-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T20:05:21-04:00"
+    },
+    {
+      "id": "tailwind-v4-vite",
+      "title": "Tailwind V4 Vite",
+      "description": "Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite plugin",
+      "applyTo": "vite.config.ts, vite.config.js, **/*.css, **/*.tsx, **/*.ts, **/*.jsx, **/*.js",
+      "applyToPatterns": [
+        "vite.config.ts",
+        "vite.config.js",
+        "**/*.css",
+        "**/*.tsx",
+        "**/*.ts",
+        "**/*.jsx",
+        "**/*.js"
+      ],
+      "extensions": [
+        ".css",
+        ".tsx",
+        ".ts",
+        ".jsx",
+        ".js"
+      ],
+      "path": "instructions/tailwind-v4-vite.instructions.md",
+      "filename": "tailwind-v4-vite.instructions.md",
+      "lastUpdated": "2026-02-02T12:41:48-05:00"
+    },
+    {
+      "id": "taming-copilot",
+      "title": "Taming Copilot",
+      "description": "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/taming-copilot.instructions.md",
+      "filename": "taming-copilot.instructions.md",
+      "lastUpdated": "2025-07-13T19:21:17-03:00"
+    },
+    {
+      "id": "tanstack-start-shadcn-tailwind",
+      "title": "Tanstack Start Shadcn Tailwind",
+      "description": "Guidelines for building TanStack Start applications",
+      "applyTo": "**/*.ts, **/*.tsx, **/*.js, **/*.jsx, **/*.css, **/*.scss, **/*.json",
+      "applyToPatterns": [
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.json"
+      ],
+      "extensions": [
+        ".ts",
+        ".tsx",
+        ".js",
+        ".jsx",
+        ".css",
+        ".scss",
+        ".json"
+      ],
+      "path": "instructions/tanstack-start-shadcn-tailwind.instructions.md",
+      "filename": "tanstack-start-shadcn-tailwind.instructions.md",
+      "lastUpdated": "2025-07-13T22:54:32+01:00"
+    },
+    {
+      "id": "task-implementation",
+      "title": "Task Implementation",
+      "description": "Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai",
+      "applyTo": "**/.copilot-tracking/changes/*.md",
+      "applyToPatterns": [
+        "**/.copilot-tracking/changes/*.md"
+      ],
+      "extensions": [
+        ".md"
+      ],
+      "path": "instructions/task-implementation.instructions.md",
+      "filename": "task-implementation.instructions.md",
+      "lastUpdated": "2025-08-06T16:57:59-07:00"
+    },
+    {
+      "id": "tasksync",
+      "title": "Tasksync",
+      "description": "TaskSync V5 - Allows you to give the agent new instructions or feedback after completing a task using terminal while agent is running.",
+      "applyTo": "**",
+      "applyToPatterns": [
+        "**"
+      ],
+      "extensions": [],
+      "path": "instructions/tasksync.instructions.md",
+      "filename": "tasksync.instructions.md",
+      "lastUpdated": "2026-02-13T12:03:56+08:00"
+    },
+    {
+      "id": "terraform",
+      "title": "Terraform",
+      "description": "Terraform Conventions and Guidelines",
+      "applyTo": "**/*.tf",
+      "applyToPatterns": [
+        "**/*.tf"
+      ],
+      "extensions": [
+        ".tf"
+      ],
+      "path": "instructions/terraform.instructions.md",
+      "filename": "terraform.instructions.md",
+      "lastUpdated": "2025-07-27T23:57:18Z"
+    },
+    {
+      "id": "terraform-azure",
+      "title": "Terraform Azure",
+      "description": "Create or modify solutions built using Terraform on Azure.",
+      "applyTo": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tfstate, **/*.tf.json, **/*.tfvars.json",
+      "applyToPatterns": [
+        "**/*.terraform",
+        "**/*.tf",
+        "**/*.tfvars",
+        "**/*.tflint.hcl",
+        "**/*.tfstate",
+        "**/*.tf.json",
+        "**/*.tfvars.json"
+      ],
+      "extensions": [
+        ".terraform",
+        ".tf",
+        ".tfvars",
+        ".tfstate"
+      ],
+      "path": "instructions/terraform-azure.instructions.md",
+      "filename": "terraform-azure.instructions.md",
+      "lastUpdated": "2025-09-25T11:34:25+12:00"
+    },
+    {
+      "id": "terraform-sap-btp",
+      "title": "Terraform Sap Btp",
+      "description": "Terraform conventions and guidelines for SAP Business Technology Platform (SAP BTP).",
+      "applyTo": "**/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json",
+      "applyToPatterns": [
+        "**/*.tf",
+        "**/*.tfvars",
+        "**/*.tflint.hcl",
+        "**/*.tf.json",
+        "**/*.tfvars.json"
+      ],
+      "extensions": [
+        ".tf",
+        ".tfvars"
+      ],
+      "path": "instructions/terraform-sap-btp.instructions.md",
+      "filename": "terraform-sap-btp.instructions.md",
+      "lastUpdated": "2025-11-10T00:26:51+01:00"
+    },
+    {
+      "id": "typescript-mcp-server",
+      "title": "Typescript Mcp Server",
+      "description": "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
+      "applyTo": "**/*.ts, **/*.js, **/package.json",
+      "applyToPatterns": [
+        "**/*.ts",
+        "**/*.js",
+        "**/package.json"
+      ],
+      "extensions": [
+        ".ts",
+        ".js"
+      ],
+      "path": "instructions/typescript-mcp-server.instructions.md",
+      "filename": "typescript-mcp-server.instructions.md",
+      "lastUpdated": "2025-10-16T19:57:58-04:00"
+    },
+    {
+      "id": "typespec-m365-copilot",
+      "title": "Typespec M365 Copilot",
+      "description": "Guidelines and best practices for building TypeSpec-based declarative agents and API plugins for Microsoft 365 Copilot",
+      "applyTo": "**/*.tsp",
+      "applyToPatterns": [
+        "**/*.tsp"
+      ],
+      "extensions": [
+        ".tsp"
+      ],
+      "path": "instructions/typespec-m365-copilot.instructions.md",
+      "filename": "typespec-m365-copilot.instructions.md",
+      "lastUpdated": "2026-01-09T12:03:03-05:00"
+    },
+    {
+      "id": "update-code-from-shorthand",
+      "title": "Update Code From Shorthand",
+      "description": "Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.",
+      "applyTo": "**/${input:file}",
+      "applyToPatterns": [
+        "**/${input:file}"
+      ],
+      "extensions": [],
+      "path": "instructions/update-code-from-shorthand.instructions.md",
+      "filename": "update-code-from-shorthand.instructions.md",
+      "lastUpdated": "2025-11-02T23:10:40-05:00"
+    },
+    {
+      "id": "update-docs-on-code-change",
+      "title": "Update Docs On Code Change",
+      "description": "Automatically update README.md and documentation files when application code changes require documentation updates",
+      "applyTo": "**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,java,cs,go,rb,php,rs,cpp,c,h,hpp}",
+      "applyToPatterns": [
+        "**/*.{md",
+        "js",
+        "mjs",
+        "cjs",
+        "ts",
+        "tsx",
+        "jsx",
+        "py",
+        "java",
+        "cs",
+        "go",
+        "rb",
+        "php",
+        "rs",
+        "cpp",
+        "c",
+        "h",
+        "hpp}"
+      ],
+      "extensions": [],
+      "path": "instructions/update-docs-on-code-change.instructions.md",
+      "filename": "update-docs-on-code-change.instructions.md",
+      "lastUpdated": "2025-12-14T17:30:42-05:00"
+    },
+    {
+      "id": "use-cliche-data-in-docs",
+      "title": "Use Cliche Data In Docs",
+      "description": "Ensure documentation and examples use only generic, cliche placeholder data — never real or sensitive data sourced from local scripts, configuration, task files, or prompt context.",
+      "applyTo": "**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,json}",
+      "applyToPatterns": [
+        "**/*.{md",
+        "js",
+        "mjs",
+        "cjs",
+        "ts",
+        "tsx",
+        "jsx",
+        "py",
+        "json}"
+      ],
+      "extensions": [],
+      "path": "instructions/use-cliche-data-in-docs.instructions.md",
+      "filename": "use-cliche-data-in-docs.instructions.md",
+      "lastUpdated": "2026-03-29T17:08:51-04:00"
+    },
+    {
+      "id": "vsixtoolkit",
+      "title": "Vsixtoolkit",
+      "description": "Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit",
+      "applyTo": "**/*.cs, **/*.vsct, **/*.xaml, **/source.extension.vsixmanifest",
+      "applyToPatterns": [
+        "**/*.cs",
+        "**/*.vsct",
+        "**/*.xaml",
+        "**/source.extension.vsixmanifest"
+      ],
+      "extensions": [
+        ".cs",
+        ".vsct",
+        ".xaml"
+      ],
+      "path": "instructions/vsixtoolkit.instructions.md",
+      "filename": "vsixtoolkit.instructions.md",
+      "lastUpdated": "2026-01-12T10:40:15-08:00"
+    },
+    {
+      "id": "winui3",
+      "title": "Winui3",
+      "description": "WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.",
+      "applyTo": "**/*.xaml, **/*.cs, **/*.csproj",
+      "applyToPatterns": [
+        "**/*.xaml",
+        "**/*.cs",
+        "**/*.csproj"
+      ],
+      "extensions": [
+        ".xaml",
+        ".cs",
+        ".csproj"
+      ],
+      "path": "instructions/winui3.instructions.md",
+      "filename": "winui3.instructions.md",
+      "lastUpdated": "2026-03-04T00:04:56+01:00"
+    },
+    {
+      "id": "wordpress",
+      "title": "Wordpress",
+      "description": "Coding, security, and testing rules for WordPress plugins and themes",
+      "applyTo": "wp-content/plugins/**,wp-content/themes/**,**/*.php,**/*.inc,**/*.js,**/*.jsx,**/*.ts,**/*.tsx,**/*.css,**/*.scss,**/*.json",
+      "applyToPatterns": [
+        "wp-content/plugins/**",
+        "wp-content/themes/**",
+        "**/*.php",
+        "**/*.inc",
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.json"
+      ],
+      "extensions": [
+        ".php",
+        ".inc",
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx",
+        ".css",
+        ".scss",
+        ".json"
+      ],
+      "path": "instructions/wordpress.instructions.md",
+      "filename": "wordpress.instructions.md",
+      "lastUpdated": "2025-10-02T06:16:06+02:00"
+    }
+  ],
+  "filters": {
+    "patterns": [
+      "*",
+      "**",
+      "**.cs",
+      "**.csproj",
+      "**.go",
+      "**.js",
+      "**.json",
+      "**.py",
+      "**.ts",
+      "**.tsp",
+      "**/${input:file}",
+      "**/*-definition.json",
+      "**/*.R",
+      "**/*.Rmd",
+      "**/*.Tests.ps1",
+      "**/*.agent.md",
+      "**/*.astro",
+      "**/*.bicep",
+      "**/*.bicepparam",
+      "**/*.c",
+      "**/*.cc",
+      "**/*.cfc",
+      "**/*.cfm",
+      "**/*.cjs",
+      "**/*.cls",
+      "**/*.cmake",
+      "**/*.cpp",
+      "**/*.cs",
+      "**/*.cshtml",
+      "**/*.cshtml.cs",
+      "**/*.csproj",
+      "**/*.css",
+      "**/*.cxx",
+      "**/*.dart",
+      "**/*.dockerfile",
+      "**/*.drawio",
+      "**/*.drawio.png",
+      "**/*.drawio.svg",
+      "**/*.e2e-spec.ts",
+      "**/*.flow.json",
+      "**/*.gemspec",
+      "**/*.genai.*",
+      "**/*.go",
+      "**/*.h",
+      "**/*.hpp",
+      "**/*.html",
+      "**/*.inc",
+      "**/*.instructions.md",
+      "**/*.java",
+      "**/*.js",
+      "**/*.json",
+      "**/*.jsx",
+      "**/*.kt",
+      "**/*.kts",
+      "**/*.logicapp.json",
+      "**/*.md",
+      "**/*.mdx",
+      "**/*.mjs",
+      "**/*.mk",
+      "**/*.mustache",
+      "**/*.php",
+      "**/*.pipeline.yml",
+      "**/*.prompt.md",
+      "**/*.properties",
+      "**/*.ps1",
+      "**/*.psm1",
+      "**/*.py",
+      "**/*.qmd",
+      "**/*.r",
+      "**/*.razor",
+      "**/*.razor.cs",
+      "**/*.razor.css",
+      "**/*.rb",
+      "**/*.rmd",
+      "**/*.rs",
+      "**/*.scala",
+      "**/*.scss",
+      "**/*.sh",
+      "**/*.spec.ts",
+      "**/*.sql",
+      "**/*.svelte",
+      "**/*.swift",
+      "**/*.terraform",
+      "**/*.tf",
+      "**/*.tf.json",
+      "**/*.tflint.hcl",
+      "**/*.tfstate",
+      "**/*.tfvars",
+      "**/*.tfvars.json",
+      "**/*.trigger",
+      "**/*.ts",
+      "**/*.tsp",
+      "**/*.tsx",
+      "**/*.twig",
+      "**/*.vsct",
+      "**/*.xaml",
+      "**/*.xml",
+      "**/*.yaml",
+      "**/*.yml",
+      "**/*.{clj",
+      "**/*.{cs",
+      "**/*.{graphql",
+      "**/*.{json",
+      "**/*.{md",
+      "**/*.{pbix",
+      "**/*.{ts",
+      "**/*.{yaml",
+      "**/*.{yml",
+      "**/*edge*.md",
+      "**/*iot*.md",
+      "**/*smart-city*.md",
+      "**/.copilot-tracking/changes/*.md",
+      "**/.joyride/**",
+      "**/CMakeLists.txt",
+      "**/Dockerfile",
+      "**/Dockerfile.*",
+      "**/GNUmakefile",
+      "**/Gemfile",
+      "**/Makefile",
+      "**/Package.resolved",
+      "**/Package.swift",
+      "**/Program.cs",
+      "**/Rakefile",
+      "**/application*.conf",
+      "**/application*.properties",
+      "**/application*.yml",
+      "**/azure-pipelines*.yml",
+      "**/azure-pipelines.yml",
+      "**/build.gradle",
+      "**/build.gradle.kts",
+      "**/build.sbt",
+      "**/build.sc",
+      "**/compose*.yaml",
+      "**/compose*.yml",
+      "**/docker-compose*.yaml",
+      "**/docker-compose*.yml",
+      "**/go.mod",
+      "**/go.sum",
+      "**/gradle/libs.versions.toml",
+      "**/host.json",
+      "**/infra/**",
+      "**/infrastructure/**",
+      "**/local.settings.json",
+      "**/makefile",
+      "**/package.json",
+      "**/pom.xml",
+      "**/power.config.json",
+      "**/pyproject.toml",
+      "**/requirements.txt",
+      "**/settings.gradle.kts",
+      "**/skills/**/SKILL.md",
+      "**/source.extension.vsixmanifest",
+      "**/tsconfig.json",
+      "**/vite.config.*",
+      "**/workflow.json",
+      "**/{*mcp*",
+      "**agent.json",
+      "**declarative-agent.json",
+      "**manifest.json",
+      "*agent*",
+      "*plugin*",
+      ".github/hooks/**",
+      ".github/workflows/*.yaml",
+      ".github/workflows/*.yml",
+      "ai-plugin.json",
+      "bb",
+      "c",
+      "charts/**/templates/**/*.yaml",
+      "charts/**/templates/**/*.yml",
+      "cjs",
+      "cljc",
+      "cljs",
+      "cpp",
+      "cs",
+      "csharp",
+      "csproj",
+      "csproj}",
+      "css",
+      "css}",
+      "csx",
+      "dax",
+      "declarativeAgent.json",
+      "deploy/**/*.yaml",
+      "deploy/**/*.yml",
+      "edn.mdx?}",
+      "force-app/main/default/lwc/**",
+      "go",
+      "go.mod",
+      "gql",
+      "h",
+      "hooks/**",
+      "hpp}",
+      "html}",
+      "java",
+      "java}",
+      "js",
+      "json",
+      "json}",
+      "jsx",
+      "jsx}",
+      "js}",
+      "k8s/**/*.yaml",
+      "k8s/**/*.yml",
+      "less",
+      "manifest.json}",
+      "manifests/**/*.yaml",
+      "manifests/**/*.yml",
+      "mcp.json",
+      "md",
+      "md}",
+      "mjs",
+      "pa.yaml}",
+      "package.json",
+      "pbir}",
+      "pbix",
+      "pcfproj",
+      "php",
+      "powershell}",
+      "ps1",
+      "py",
+      "pyproject.toml",
+      "rb",
+      "rs",
+      "setup.py",
+      "sln}",
+      "ts",
+      "tsx",
+      "txt",
+      "txt}",
+      "vite.config.js",
+      "vite.config.ts",
+      "vtl",
+      "wp-content/plugins/**",
+      "wp-content/themes/**",
+      "xml",
+      "yaml",
+      "yaml}",
+      "yml"
+    ],
+    "extensions": [
+      "(none)",
+      ".R",
+      ".Rmd",
+      ".astro",
+      ".bicep",
+      ".bicepparam",
+      ".c",
+      ".cc",
+      ".cfc",
+      ".cfm",
+      ".cjs",
+      ".cls",
+      ".cmake",
+      ".conf",
+      ".cpp",
+      ".cs",
+      ".cshtml",
+      ".csproj",
+      ".css",
+      ".cxx",
+      ".dart",
+      ".dockerfile",
+      ".drawio",
+      ".gemspec",
+      ".go",
+      ".h",
+      ".hpp",
+      ".html",
+      ".inc",
+      ".java",
+      ".js",
+      ".json",
+      ".jsx",
+      ".kt",
+      ".kts",
+      ".md",
+      ".mdx",
+      ".mjs",
+      ".mk",
+      ".mustache",
+      ".php",
+      ".properties",
+      ".ps1",
+      ".psm1",
+      ".py",
+      ".qmd",
+      ".r",
+      ".razor",
+      ".rb",
+      ".rmd",
+      ".rs",
+      ".scala",
+      ".scss",
+      ".sh",
+      ".sql",
+      ".svelte",
+      ".swift",
+      ".terraform",
+      ".tf",
+      ".tfstate",
+      ".tfvars",
+      ".trigger",
+      ".ts",
+      ".tsp",
+      ".tsx",
+      ".twig",
+      ".vsct",
+      ".xaml",
+      ".xml",
+      ".yaml",
+      ".yml"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "generated": "2026-05-09T22:30:36.627Z",
+  "counts": {
+    "agents": 218,
+    "instructions": 182,
+    "skills": 336,
+    "hooks": 6,
+    "workflows": 8,
+    "plugins": 78,
+    "tools": 12,
+    "contributors": 357,
+    "samples": 8,
+    "total": 828
+  }
+}

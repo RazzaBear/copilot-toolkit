@@ -20,7 +20,11 @@
     "website:data": "node ./eng/generate-website-data.mjs",
     "website:dev": "npm run website:data && npm run --prefix website dev",
     "website:build": "npm run build && npm run website:data && npm run --prefix website build",
-    "website:preview": "npm run --prefix website preview"
+    "website:preview": "npm run --prefix website preview",
+    "website2:data": "node ./eng/generate-website-data.mjs --output website2/public/data",
+    "website2:dev": "npm run website2:data && npm run --prefix website2 dev",
+    "website2:build": "npm run website2:data && npm run --prefix website2 build",
+    "website2:preview": "npm run --prefix website2 preview"
   },
   "repository": {
     "type": "git",

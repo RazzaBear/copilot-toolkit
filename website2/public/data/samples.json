@@ -1,0 +1,331 @@
+{
+  "cookbooks": [
+    {
+      "id": "copilot-sdk",
+      "name": "GitHub Copilot SDK",
+      "description": "Ready-to-use recipes for building with the GitHub Copilot SDK across multiple languages",
+      "path": "cookbook/copilot-sdk",
+      "featured": true,
+      "languages": [
+        {
+          "id": "nodejs",
+          "name": "Node.js / TypeScript",
+          "icon": "",
+          "extension": ".ts"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "icon": "",
+          "extension": ".py"
+        },
+        {
+          "id": "dotnet",
+          "name": ".NET (C#)",
+          "icon": "",
+          "extension": ".cs"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "icon": "",
+          "extension": ".go"
+        }
+      ],
+      "recipes": [
+        {
+          "id": "error-handling",
+          "name": "Error Handling",
+          "description": "Handle errors gracefully including connection failures, timeouts, and cleanup",
+          "tags": [
+            "errors",
+            "basics",
+            "reliability"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/error-handling.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/error-handling.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/error-handling.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/error-handling.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/error-handling.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/error-handling.md",
+              "example": "cookbook/copilot-sdk/go/recipe/error-handling.go"
+            }
+          }
+        },
+        {
+          "id": "multiple-sessions",
+          "name": "Multiple Sessions",
+          "description": "Manage multiple independent conversations simultaneously",
+          "tags": [
+            "sessions",
+            "advanced",
+            "concurrency"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/multiple-sessions.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/multiple-sessions.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/multiple-sessions.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/multiple-sessions.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/multiple-sessions.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/multiple-sessions.md",
+              "example": "cookbook/copilot-sdk/go/recipe/multiple-sessions.go"
+            }
+          }
+        },
+        {
+          "id": "managing-local-files",
+          "name": "Managing Local Files",
+          "description": "Organize files by metadata using AI-powered grouping strategies",
+          "tags": [
+            "files",
+            "organization",
+            "ai-powered"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/managing-local-files.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/managing-local-files.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/managing-local-files.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/managing-local-files.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/managing-local-files.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/managing-local-files.md",
+              "example": "cookbook/copilot-sdk/go/recipe/managing-local-files.go"
+            }
+          }
+        },
+        {
+          "id": "pr-visualization",
+          "name": "PR Visualization",
+          "description": "Generate interactive PR age charts using GitHub MCP Server",
+          "tags": [
+            "github",
+            "visualization",
+            "mcp"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/pr-visualization.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/pr-visualization.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/pr-visualization.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/pr-visualization.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/pr-visualization.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/pr-visualization.md",
+              "example": "cookbook/copilot-sdk/go/recipe/pr-visualization.go"
+            }
+          }
+        },
+        {
+          "id": "persisting-sessions",
+          "name": "Persisting Sessions",
+          "description": "Save and resume sessions across restarts",
+          "tags": [
+            "sessions",
+            "persistence",
+            "state-management"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/persisting-sessions.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/persisting-sessions.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/persisting-sessions.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/persisting-sessions.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/persisting-sessions.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/persisting-sessions.md",
+              "example": "cookbook/copilot-sdk/go/recipe/persisting-sessions.go"
+            }
+          }
+        },
+        {
+          "id": "accessibility-report",
+          "name": "Accessibility Report",
+          "description": "Generate WCAG accessibility reports using the Playwright MCP server",
+          "tags": [
+            "accessibility",
+            "playwright",
+            "mcp",
+            "wcag"
+          ],
+          "languages": [
+            "nodejs",
+            "python",
+            "dotnet",
+            "go"
+          ],
+          "variants": {
+            "nodejs": {
+              "doc": "cookbook/copilot-sdk/nodejs/accessibility-report.md",
+              "example": "cookbook/copilot-sdk/nodejs/recipe/accessibility-report.ts"
+            },
+            "python": {
+              "doc": "cookbook/copilot-sdk/python/accessibility-report.md",
+              "example": null
+            },
+            "dotnet": {
+              "doc": "cookbook/copilot-sdk/dotnet/accessibility-report.md",
+              "example": "cookbook/copilot-sdk/dotnet/recipe/accessibility-report.cs"
+            },
+            "go": {
+              "doc": "cookbook/copilot-sdk/go/accessibility-report.md",
+              "example": "cookbook/copilot-sdk/go/recipe/accessibility-report.go"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "community-samples",
+      "name": "Community Samples",
+      "description": "Community-contributed projects and examples for GitHub Copilot",
+      "path": "cookbook/community-samples",
+      "featured": false,
+      "languages": [],
+      "recipes": [
+        {
+          "id": "nodejs-agentic-issue-resolver",
+          "name": "Node.js Agentic Issue Resolver",
+          "description": "A resilient agentic workflow for autonomous codebase exploration and fixing, optimized for the Copilot SDK Technical Preview",
+          "tags": [
+            "nodejs",
+            "copilot-sdk",
+            "agents",
+            "community"
+          ],
+          "languages": [
+            "nodejs"
+          ],
+          "external": true,
+          "url": "https://github.com/Impesud/nodejs-copilot-issue-resolver",
+          "author": {
+            "name": "Impesud",
+            "url": "https://github.com/Impesud"
+          },
+          "variants": {}
+        },
+        {
+          "id": "copilot-sdk-web-app",
+          "name": "Copilot SDK Web App",
+          "description": "A full-stack chat application built with the GitHub Copilot SDK, .NET Aspire, and React with GitHub OAuth, session history, and model selection",
+          "tags": [
+            "dotnet",
+            "copilot-sdk",
+            "web-app",
+            "community"
+          ],
+          "languages": [
+            "dotnet"
+          ],
+          "external": true,
+          "url": "https://github.com/aaronpowell/copilot-sdk-web-app",
+          "author": {
+            "name": "aaronpowell",
+            "url": "https://github.com/aaronpowell"
+          },
+          "variants": {}
+        }
+      ]
+    }
+  ],
+  "totalRecipes": 8,
+  "totalCookbooks": 2,
+  "filters": {
+    "languages": [
+      "dotnet",
+      "go",
+      "nodejs",
+      "python"
+    ],
+    "tags": [
+      "accessibility",
+      "advanced",
+      "agents",
+      "ai-powered",
+      "basics",
+      "community",
+      "concurrency",
+      "copilot-sdk",
+      "dotnet",
+      "errors",
+      "files",
+      "github",
+      "mcp",
+      "nodejs",
+      "organization",
+      "persistence",
+      "playwright",
+      "reliability",
+      "sessions",
+      "state-management",
+      "visualization",
+      "wcag",
+      "web-app"
+    ]
+  }
+}

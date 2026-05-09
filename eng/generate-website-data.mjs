@@ -31,8 +31,15 @@ import {
 const __filename = fileURLToPath(import.meta.url);
 
 const WEBSITE_DIR = path.join(ROOT_FOLDER, "website");
-const WEBSITE_DATA_DIR = path.join(WEBSITE_DIR, "public", "data");
+const DEFAULT_WEBSITE_DATA_DIR = path.join(WEBSITE_DIR, "public", "data");
 const WEBSITE_SOURCE_DATA_DIR = path.join(WEBSITE_DIR, "data");
+const outputArgIndex = process.argv.indexOf("--output");
+const WEBSITE_DATA_DIR =
+  outputArgIndex >= 0 && process.argv[outputArgIndex + 1]
+    ? path.resolve(ROOT_FOLDER, process.argv[outputArgIndex + 1])
+    : process.env.WEBSITE_DATA_DIR
+      ? path.resolve(ROOT_FOLDER, process.env.WEBSITE_DATA_DIR)
+      : DEFAULT_WEBSITE_DATA_DIR;
 
 /**
  * Ensure the output directory exists
@@ -1028,7 +1035,7 @@ async function main() {
     JSON.stringify(manifest, null, 2)
   );
 
-  console.log(`\n✓ All data written to website/public/data/`);
+  console.log(`\n✓ All data written to ${path.relative(ROOT_FOLDER, WEBSITE_DATA_DIR)}/`);
 }
 
 main().catch((err) => {

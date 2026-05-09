@@ -21,6 +21,10 @@ website/.astro/
 website/public/data/*
 website/public/llms.txt
 
+# Website2 migration artifacts
+website2/dist/
+website2/public/llms.txt
+
 *.sln
 obj/
 bin/

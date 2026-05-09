@@ -1,0 +1,99 @@
+{
+  "items": [
+    {
+      "id": "daily-issues-report",
+      "title": "Daily Issues Report",
+      "description": "Generates a daily summary of open issues and recent activity as a GitHub issue",
+      "triggers": [
+        "schedule"
+      ],
+      "path": "workflows/daily-issues-report.md",
+      "lastUpdated": "2026-02-24T12:47:16-05:00"
+    },
+    {
+      "id": "ospo-contributors-report",
+      "title": "OSPO Contributors Report",
+      "description": "Monthly contributor activity metrics across an organization's repositories.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-contributors-report.md",
+      "lastUpdated": "2026-02-26T10:54:16+11:00"
+    },
+    {
+      "id": "ospo-org-health",
+      "title": "OSPO Organization Health Report",
+      "description": "Comprehensive weekly health report for a GitHub organization. Surfaces stale issues/PRs, merge time analysis, contributor leaderboards, and actionable items needing human attention.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-org-health.md",
+      "lastUpdated": "2026-02-26T10:54:16+11:00"
+    },
+    {
+      "id": "ospo-stale-repos",
+      "title": "OSPO Stale Repository Report",
+      "description": "Identifies inactive repositories in your organization and generates an archival recommendation report.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-stale-repos.md",
+      "lastUpdated": "2026-02-26T10:54:16+11:00"
+    },
+    {
+      "id": "ospo-release-compliance-checker",
+      "title": "OSS Release Compliance Checker",
+      "description": "Analyzes a target repository against open source release requirements and posts a detailed compliance report as an issue comment.",
+      "triggers": [
+        "issues",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/ospo-release-compliance-checker.md",
+      "lastUpdated": "2026-02-26T10:54:16+11:00"
+    },
+    {
+      "id": "relevance-check",
+      "title": "Relevance Check",
+      "description": "Slash command to evaluate whether an issue or pull request is still relevant to the project",
+      "triggers": [
+        "slash_command",
+        "roles"
+      ],
+      "path": "workflows/relevance-check.md",
+      "lastUpdated": "2026-02-26T13:55:50-05:00"
+    },
+    {
+      "id": "relevance-summary",
+      "title": "Relevance Summary",
+      "description": "Manually triggered workflow that summarizes all open issues and PRs with a /relevance-check response into a single issue",
+      "triggers": [
+        "workflow_dispatch"
+      ],
+      "path": "workflows/relevance-summary.md",
+      "lastUpdated": "2026-02-26T13:55:50-05:00"
+    },
+    {
+      "id": "weekly-comment-sync",
+      "title": "Weekly Comment Sync",
+      "description": "Weekly workflow that finds stale code comments or README snippets, makes text-only synchronization updates, and opens a draft pull request when changes are needed.",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "path": "workflows/weekly-comment-sync.md",
+      "lastUpdated": "2026-04-15T14:58:57+02:00"
+    }
+  ],
+  "filters": {
+    "triggers": [
+      "issues",
+      "roles",
+      "schedule",
+      "slash_command",
+      "workflow_dispatch"
+    ]
+  }
+}
