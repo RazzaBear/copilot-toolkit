@@ -1,7 +1,9 @@
 ---
 description: Weekly report identifying stale and aging resources across agents, prompts, instructions, hooks, and skills folders
 on:
-  schedule: weekly
+  # Disabled during website2 migration.
+  # schedule: weekly
+  workflow_dispatch:
 permissions:
   contents: read
 tools:

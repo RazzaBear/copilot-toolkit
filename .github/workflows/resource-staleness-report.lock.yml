@@ -47,9 +47,10 @@
 
 name: "Resource Staleness Report"
 "on":
-  schedule:
-  - cron: "47 19 * * 5"
-    # Friendly format: weekly (scattered)
+  # Disabled during website2 migration.
+  # schedule:
+  # - cron: "47 19 * * 5"
+  #   Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
@@ -1179,4 +1180,3 @@ jobs:
             /tmp/gh-aw/safe-output-items.jsonl
             /tmp/gh-aw/temporary-id-map.json
           if-no-files-found: ignore
-

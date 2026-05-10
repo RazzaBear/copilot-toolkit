@@ -1,7 +1,9 @@
 ---
 description: Weekly scan of agents, instructions, and skills to identify potential duplicate resources and report them for review
 on:
-  schedule: weekly
+  # Disabled during website2 migration.
+  # schedule: weekly
+  workflow_dispatch:
 permissions:
   contents: read
   issues: read

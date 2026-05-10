@@ -2,7 +2,8 @@
 name: "Learning Hub Updater"
 description: "Daily check for new GitHub Copilot features and updates. Opens a PR if the Learning Hub needs updating."
 on:
-  schedule: daily
+  # Disabled during website2 migration.
+  # schedule: daily
   workflow_dispatch:
 tools:
   bash: ["curl", "gh"]

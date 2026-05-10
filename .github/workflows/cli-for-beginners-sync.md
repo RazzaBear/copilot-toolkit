@@ -2,7 +2,9 @@
 name: "CLI for Beginners Content Sync"
 description: "Weekly check for updates to github/copilot-cli-for-beginners. Opens a PR to keep the Learning Hub mirror aligned when substantive upstream course changes are detected."
 on:
-  schedule: weekly
+  # Disabled during website2 migration.
+  # schedule: weekly
+  workflow_dispatch:
 permissions:
   contents: read
 tools:
