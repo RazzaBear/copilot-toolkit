@@ -39,24 +39,27 @@ export function ResourceToolbar({
   onClear,
 }: ResourceToolbarProps) {
   return (
-    <div className="mb-5 border border-line bg-white p-4">
-      <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-        <div className="flex flex-col gap-3">
-          <div className="font-mono text-sm font-semibold text-slate-700">
-            {resultCountText}
-          </div>
-          <label className="flex max-w-xl flex-col gap-1 text-sm font-medium text-slate-700">
-            Search
-            <input
-              type="search"
-              className="h-10 w-full min-w-72 border border-line bg-white px-3 text-sm text-ink placeholder:text-slate-400"
-              value={state.search}
-              placeholder="Search titles, descriptions, tags, paths"
-              onChange={(event) => onSearchChange(event.target.value)}
-            />
-          </label>
+    <div className="mb-5 border border-line bg-white p-4 shadow-sm">
+      <div className="mb-3 flex flex-col gap-1 border-b border-line pb-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="font-mono text-sm font-semibold text-slate-700">
+          {resultCountText}
         </div>
-        <div className="flex flex-col gap-3 md:flex-row md:flex-wrap md:items-start md:justify-end">
+        <div className="text-xs font-medium uppercase text-slate-500">
+          Browse collection
+        </div>
+      </div>
+      <div className="grid gap-3 lg:grid-cols-[minmax(18rem,1fr)_auto] lg:items-end">
+        <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
+          Search
+          <input
+            type="search"
+            className="h-10 w-full border border-line bg-white px-3 text-sm text-ink placeholder:text-slate-400"
+            value={state.search}
+            placeholder="Search titles, descriptions, paths, and metadata"
+            onChange={(event) => onSearchChange(event.target.value)}
+          />
+        </label>
+        <div className="grid gap-3 sm:grid-flow-col sm:auto-cols-max sm:items-end lg:justify-end">
           {config.filters.map((filter) => (
             <FilterControl
               key={filter.id}
@@ -67,10 +70,10 @@ export function ResourceToolbar({
             />
           ))}
           {config.sortOptions.length > 1 ? (
-            <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
+            <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
               Sort
               <select
-                className="h-10 min-w-44 border border-line bg-white px-3 text-sm text-ink"
+                className="h-10 w-full border border-line bg-white px-3 text-sm text-ink sm:w-48"
                 value={state.sort}
                 onChange={(event) =>
                   onSortChange(event.target.value as SortOption)
@@ -87,7 +90,7 @@ export function ResourceToolbar({
           {hasActiveControls ? (
             <button
               type="button"
-              className="h-10 self-end border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+              className="h-10 w-full border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent sm:w-auto"
               onClick={onClear}
             >
               Clear
@@ -114,10 +117,10 @@ function FilterControl({
 }: FilterControlProps) {
   if (filter.mode === "single") {
     return (
-      <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
+      <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
         {filter.label}
         <select
-          className="h-10 min-w-48 border border-line bg-white px-3 text-sm text-ink"
+          className="h-10 w-full border border-line bg-white px-3 text-sm text-ink sm:w-52"
           value={values[0] ?? ""}
           onChange={(event) =>
             onChange(event.target.value ? [event.target.value] : [])
@@ -137,11 +140,11 @@ function FilterControl({
   }
 
   return (
-    <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
+    <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
       {filter.label}
       <select
         multiple
-        className="min-h-28 min-w-56 border border-line bg-white px-3 py-2 text-sm text-ink"
+        className="min-h-28 w-full border border-line bg-white px-3 py-2 text-sm text-ink sm:w-56"
         value={values}
         onChange={(event) =>
           onChange(

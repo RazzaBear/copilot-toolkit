@@ -93,15 +93,7 @@ export const routes: RouteDefinition[] = [
     {
       defaultSort: "title",
       sortOptions: ["title", "lastUpdated"],
-      filters: [
-        {
-          id: "extensions",
-          label: "Extension",
-          queryParam: "extension",
-          field: "extensions",
-          mode: "multi",
-        },
-      ],
+      filters: [],
     }
   ),
   resourceRoute(
@@ -117,15 +109,7 @@ export const routes: RouteDefinition[] = [
     {
       defaultSort: "title",
       sortOptions: ["title", "lastUpdated"],
-      filters: [
-        {
-          id: "tags",
-          label: "Tag",
-          queryParam: "tag",
-          field: "tags",
-          mode: "multi",
-        },
-      ],
+      filters: [],
     }
   ),
   resourceRoute(
@@ -135,15 +119,7 @@ export const routes: RouteDefinition[] = [
     {
       defaultSort: "title",
       sortOptions: ["title", "lastUpdated"],
-      filters: [
-        {
-          id: "triggers",
-          label: "Trigger",
-          queryParam: "trigger",
-          field: "triggers",
-          mode: "multi",
-        },
-      ],
+      filters: [],
     }
   ),
   resourceRoute(
@@ -153,15 +129,7 @@ export const routes: RouteDefinition[] = [
     {
       defaultSort: "title",
       sortOptions: ["title", "lastUpdated"],
-      filters: [
-        {
-          id: "tags",
-          label: "Tag",
-          queryParam: "tag",
-          field: "tags",
-          mode: "multi",
-        },
-      ],
+      filters: [],
     }
   ),
   resourceRoute("tools", "Tools", "MCP servers and developer tools.", {
