@@ -11,7 +11,7 @@ export function Layout({ children }: LayoutProps) {
       <header className="border-b border-line bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 md:flex-row md:items-center md:justify-between md:px-6">
           <NavLink to="/" className="font-mono text-sm font-semibold uppercase">
-            Awesome GitHub Copilot
+            Copilot Toolkit
           </NavLink>
           <nav aria-label="Primary navigation">
             <ul className="flex flex-wrap gap-2">

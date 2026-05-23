@@ -28,7 +28,7 @@ export function HomePage() {
   return (
     <>
       <PageHeader
-        title="Awesome GitHub Copilot"
+        title="Copilot Toolkit"
         description="Community-contributed agents, instructions, skills, hooks, workflows, plugins, and tools for GitHub Copilot."
         count={counts.total}
       />
