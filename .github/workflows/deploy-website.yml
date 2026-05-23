@@ -1,10 +1,10 @@
 # GitHub Pages deployment workflow
-# Builds the Astro website and deploys to GitHub Pages
+# Builds the React website2 app and deploys to GitHub Pages
 
 name: Deploy Website to GitHub Pages
 
 on:
-  # Triggered manually from the Actions tab, or dispatched by the Publish to main workflow.
+  # Triggered manually from the Actions tab.
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -38,16 +38,20 @@ jobs:
       - name: Install root dependencies
         run: npm ci
 
-      - name: Install website dependencies
+      - name: Install website2 dependencies
         run: npm ci
-        working-directory: ./website
+        working-directory: ./website2
 
-      - name: Generate website data
-        run: npm run website:data
+      - name: Build React site
+        run: npm run website2:build
+        env:
+          VITE_BASE_PATH: /copilot-toolkit/
 
-      - name: Build Astro site
-        run: npm run build
-        working-directory: ./website
+      - name: Add GitHub Pages SPA fallback
+        run: cp website2/dist/index.html website2/dist/404.html
+
+      - name: Disable Jekyll
+        run: touch website2/dist/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
@@ -55,7 +59,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
         with:
-          path: "./website/dist"
+          path: "./website2/dist"
 
   # Deployment job
   deploy:
