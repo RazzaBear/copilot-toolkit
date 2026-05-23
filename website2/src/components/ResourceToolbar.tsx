@@ -39,21 +39,21 @@ export function ResourceToolbar({
   onClear,
 }: ResourceToolbarProps) {
   return (
-    <div className="mb-5 border border-line bg-white p-4 shadow-sm">
+    <div className="mb-5 border border-line bg-surface p-4 shadow-sm">
       <div className="mb-3 flex flex-col gap-1 border-b border-line pb-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="font-mono text-sm font-semibold text-slate-700">
+        <div className="font-mono text-sm font-semibold text-ink">
           {resultCountText}
         </div>
-        <div className="text-xs font-medium uppercase text-slate-500">
+        <div className="text-xs font-medium uppercase text-subtle">
           Browse collection
         </div>
       </div>
       <div className="grid gap-3 lg:grid-cols-[minmax(18rem,1fr)_auto] lg:items-end">
-        <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
+        <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-muted">
           Search
           <input
             type="search"
-            className="h-10 w-full border border-line bg-white px-3 text-sm text-ink placeholder:text-slate-400"
+            className="h-10 w-full border border-line bg-surface px-3 text-sm text-ink placeholder:text-subtle focus:border-accent focus:outline-none focus:ring-2 focus:ring-accentSoft"
             value={state.search}
             placeholder="Search titles, descriptions, paths, and metadata"
             onChange={(event) => onSearchChange(event.target.value)}
@@ -70,10 +70,10 @@ export function ResourceToolbar({
             />
           ))}
           {config.sortOptions.length > 1 ? (
-            <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
+            <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-muted">
               Sort
               <select
-                className="h-10 w-full border border-line bg-white px-3 text-sm text-ink sm:w-48"
+                className="h-10 w-full border border-line bg-surface px-3 text-sm text-ink focus:border-accent focus:outline-none focus:ring-2 focus:ring-accentSoft sm:w-48"
                 value={state.sort}
                 onChange={(event) =>
                   onSortChange(event.target.value as SortOption)
@@ -90,7 +90,7 @@ export function ResourceToolbar({
           {hasActiveControls ? (
             <button
               type="button"
-              className="h-10 w-full border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent sm:w-auto"
+              className="h-10 w-full border border-line bg-surface px-3 text-sm font-medium text-ink transition hover:border-accent hover:bg-accentSoft hover:text-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft sm:w-auto"
               onClick={onClear}
             >
               Clear
@@ -117,10 +117,10 @@ function FilterControl({
 }: FilterControlProps) {
   if (filter.mode === "single") {
     return (
-      <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
+      <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-muted">
         {filter.label}
         <select
-          className="h-10 w-full border border-line bg-white px-3 text-sm text-ink sm:w-52"
+          className="h-10 w-full border border-line bg-surface px-3 text-sm text-ink focus:border-accent focus:outline-none focus:ring-2 focus:ring-accentSoft sm:w-52"
           value={values[0] ?? ""}
           onChange={(event) =>
             onChange(event.target.value ? [event.target.value] : [])
@@ -140,11 +140,11 @@ function FilterControl({
   }
 
   return (
-    <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-slate-700">
+    <label className="flex min-w-0 flex-col gap-1 text-sm font-medium text-muted">
       {filter.label}
       <select
         multiple
-        className="min-h-28 w-full border border-line bg-white px-3 py-2 text-sm text-ink sm:w-56"
+        className="min-h-28 w-full border border-line bg-surface px-3 py-2 text-sm text-ink focus:border-accent focus:outline-none focus:ring-2 focus:ring-accentSoft sm:w-56"
         value={values}
         onChange={(event) =>
           onChange(

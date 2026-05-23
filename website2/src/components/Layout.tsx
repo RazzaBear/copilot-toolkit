@@ -8,9 +8,12 @@ interface LayoutProps {
 export function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen bg-canvas text-ink">
-      <header className="border-b border-line bg-white">
+      <header className="border-b border-line bg-surface">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 md:flex-row md:items-center md:justify-between md:px-6">
-          <NavLink to="/" className="font-mono text-sm font-semibold uppercase">
+          <NavLink
+            to="/"
+            className="font-mono text-sm font-semibold uppercase text-ink transition hover:text-accent"
+          >
             Copilot Toolkit
           </NavLink>
           <nav aria-label="Primary navigation">
@@ -24,7 +27,7 @@ export function Layout({ children }: LayoutProps) {
                         "inline-flex h-9 items-center border px-3 text-sm font-medium transition",
                         isActive
                           ? "border-accent bg-accent text-white"
-                          : "border-line bg-white text-ink hover:border-accent hover:text-accent",
+                          : "border-line bg-surface text-ink hover:border-accent hover:bg-accentSoft hover:text-accentHover",
                       ].join(" ")
                     }
                   >

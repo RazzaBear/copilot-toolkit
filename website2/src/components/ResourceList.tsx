@@ -22,8 +22,8 @@ export function ResourceList({ items, resourceKind }: ResourceListProps) {
 
   if (items.length === 0) {
     return (
-      <div className="border border-line bg-white p-6">
-        <p className="text-sm text-slate-600">No items found.</p>
+      <div className="border border-line bg-surface p-6">
+        <p className="text-sm text-muted">No items found.</p>
       </div>
     );
   }
@@ -48,7 +48,7 @@ export function ResourceList({ items, resourceKind }: ResourceListProps) {
           return (
             <article
               key={key}
-              className="border border-line bg-white p-4 transition hover:border-accent"
+              className="border border-line bg-surface p-4 transition hover:border-accent hover:shadow-sm"
             >
               <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
                 <div className="min-w-0 flex-1">
@@ -129,7 +129,7 @@ function ResourceSummary({
         {name}
       </h2>
       {item.description ? (
-        <p className="mt-2 max-w-4xl text-sm leading-6 text-slate-600">
+        <p className="mt-2 max-w-4xl text-sm leading-6 text-muted">
           {item.description}
         </p>
       ) : null}
@@ -152,7 +152,7 @@ function ResourceMetadata({ item, resourceKind }: ResourceMetadataProps) {
       {chips.map((chip) => (
         <span
           key={chip}
-          className="border border-line bg-canvas px-2 py-1 text-xs font-medium text-slate-600"
+          className="border border-line bg-surfaceMuted px-2 py-1 text-xs font-medium text-muted"
         >
           {chip}
         </span>

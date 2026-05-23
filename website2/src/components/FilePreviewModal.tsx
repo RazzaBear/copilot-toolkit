@@ -169,7 +169,7 @@ export function FilePreviewModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 p-3 md:p-6"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-inverse/70 p-3 md:p-6"
       onMouseDown={(event) => {
         if (event.target === event.currentTarget) onClose();
       }}
@@ -179,7 +179,7 @@ export function FilePreviewModal({
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
-        className="flex max-h-[88vh] min-h-0 w-full max-w-[1100px] flex-col border border-line bg-white shadow-2xl"
+        className="flex max-h-[88vh] min-h-0 w-full max-w-[1100px] flex-col border border-line bg-surface shadow-2xl"
       >
         <header className="flex flex-col gap-3 border-b border-line p-4 md:p-5">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
@@ -187,14 +187,14 @@ export function FilePreviewModal({
               <h2 id={titleId} className="text-xl font-semibold text-ink">
                 {title}
               </h2>
-              <p className="mt-1 break-all font-mono text-xs text-slate-500">
+              <p className="mt-1 break-all font-mono text-xs text-subtle">
                 {currentFile.path}
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
               <button
                 type="button"
-                className="inline-flex h-9 items-center justify-center border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-70"
+                className="inline-flex h-9 items-center justify-center border border-line bg-surface px-3 text-sm font-medium text-ink transition hover:border-accent hover:bg-accentSoft hover:text-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft disabled:cursor-not-allowed disabled:opacity-70"
                 disabled={loadState.status !== "success"}
                 onClick={handleCopy}
               >
@@ -202,7 +202,7 @@ export function FilePreviewModal({
               </button>
               <button
                 type="button"
-                className="inline-flex h-9 items-center justify-center border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+                className="inline-flex h-9 items-center justify-center border border-line bg-surface px-3 text-sm font-medium text-ink transition hover:border-accent hover:bg-accentSoft hover:text-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft"
                 onClick={handleDownload}
               >
                 {downloadLabel}
@@ -211,7 +211,7 @@ export function FilePreviewModal({
                 href={getGitHubBlobUrl(currentFile.path)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex h-9 items-center justify-center border border-line bg-white px-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+                className="inline-flex h-9 items-center justify-center border border-line bg-surface px-3 text-sm font-medium text-ink transition hover:border-accent hover:bg-accentSoft hover:text-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft"
               >
                 GitHub
               </a>
@@ -219,7 +219,7 @@ export function FilePreviewModal({
                 ref={closeButtonRef}
                 type="button"
                 aria-label="Close preview"
-                className="inline-flex h-9 w-9 items-center justify-center border border-line bg-white text-lg leading-none text-ink transition hover:border-accent hover:text-accent"
+                className="inline-flex h-9 w-9 items-center justify-center border border-line bg-surface text-lg leading-none text-ink transition hover:border-accent hover:bg-accentSoft hover:text-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft"
                 onClick={onClose}
               >
                 x
@@ -227,10 +227,10 @@ export function FilePreviewModal({
             </div>
           </div>
           {files.length > 1 ? (
-            <label className="flex max-w-lg flex-col gap-1 text-sm font-medium text-slate-700">
+            <label className="flex max-w-lg flex-col gap-1 text-sm font-medium text-muted">
               File
               <select
-                className="h-10 border border-line bg-white px-3 text-sm text-ink"
+                className="h-10 border border-line bg-surface px-3 text-sm text-ink focus:border-accent focus:outline-none focus:ring-2 focus:ring-accentSoft"
                 value={selectedPath}
                 onChange={(event) => setSelectedPath(event.target.value)}
               >
@@ -243,24 +243,24 @@ export function FilePreviewModal({
             </label>
           ) : null}
         </header>
-        <div className="min-h-0 flex-1 overflow-auto bg-slate-950">
+        <div className="min-h-0 flex-1 overflow-auto bg-inverse">
           {loadState.status === "loading" || loadState.status === "idle" ? (
-            <div className="p-6 font-mono text-sm text-slate-200">
+            <div className="p-6 font-mono text-sm text-inverseMuted">
               Loading preview...
             </div>
           ) : null}
           {loadState.status === "error" ? (
-            <div className="space-y-3 p-6 text-sm text-slate-200">
+            <div className="space-y-3 p-6 text-sm text-inverseMuted">
               <p className="font-semibold">Unable to load preview.</p>
-              <p className="break-all font-mono text-slate-400">
+              <p className="break-all font-mono text-inverseMuted">
                 {currentFile.path}
               </p>
-              <p className="text-slate-400">{loadState.message}</p>
+              <p className="text-inverseMuted">{loadState.message}</p>
               <a
                 href={getGitHubBlobUrl(currentFile.path)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex h-9 items-center justify-center border border-slate-600 px-3 font-medium text-white transition hover:border-white"
+                className="inline-flex h-9 items-center justify-center border border-lineStrong px-3 font-medium text-white transition hover:border-white focus:outline-none focus:ring-2 focus:ring-accentMuted"
               >
                 Open on GitHub
               </a>

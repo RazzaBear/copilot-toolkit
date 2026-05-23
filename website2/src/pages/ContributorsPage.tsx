@@ -34,8 +34,8 @@ export function ContributorsPage({ route }: ContributorsPageProps) {
         count={state.data.counts.contributors}
       />
       <section className="mx-auto max-w-7xl px-4 py-8 md:px-6">
-        <div className="border border-line bg-white p-6">
-          <p className="max-w-3xl text-sm leading-6 text-slate-600">
+        <div className="border border-line bg-surface p-6">
+          <p className="max-w-3xl text-sm leading-6 text-muted">
             The React scaffold preserves the contributor count from
             manifest.json. The full contributor grid can be migrated from the
             Astro page once the app shell and generated data path are stable.

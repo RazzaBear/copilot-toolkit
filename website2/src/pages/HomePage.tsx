@@ -41,12 +41,12 @@ export function HomePage() {
               <Link
                 key={route.id}
                 to={route.path}
-                className="border border-line bg-white p-5 transition hover:border-accent"
+                className="border border-line bg-surface p-5 transition hover:border-accent hover:shadow-sm"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h2 className="text-xl font-semibold">{route.label}</h2>
-                    <p className="mt-2 text-sm leading-6 text-slate-600">
+                    <p className="mt-2 text-sm leading-6 text-muted">
                       {route.description}
                     </p>
                   </div>

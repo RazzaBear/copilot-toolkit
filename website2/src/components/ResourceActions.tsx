@@ -106,10 +106,10 @@ function ActionButton({
 
 function getActionClassName(primary = false): string {
   return [
-    "inline-flex h-9 items-center justify-center whitespace-nowrap border px-3 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-70",
+    "inline-flex h-9 items-center justify-center whitespace-nowrap border px-3 text-sm font-medium transition focus:outline-none focus:ring-2 focus:ring-accentSoft disabled:cursor-not-allowed disabled:opacity-70",
     primary
-      ? "border-accent bg-accent text-white hover:bg-blue-700"
-      : "border-line bg-white text-ink hover:border-accent hover:text-accent",
+      ? "border-accent bg-accent text-white hover:bg-accentHover"
+      : "border-line bg-surface text-ink hover:border-accent hover:bg-accentSoft hover:text-accentHover",
   ].join(" ");
 }
 

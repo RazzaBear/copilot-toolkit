@@ -11,7 +11,7 @@ export function NotFoundPage() {
       <section className="mx-auto max-w-7xl px-4 py-8 md:px-6">
         <Link
           to="/"
-          className="inline-flex h-10 items-center border border-accent bg-accent px-4 text-sm font-medium text-white"
+          className="inline-flex h-10 items-center border border-accent bg-accent px-4 text-sm font-medium text-white transition hover:bg-accentHover focus:outline-none focus:ring-2 focus:ring-accentSoft"
         >
           Return home
         </Link>
