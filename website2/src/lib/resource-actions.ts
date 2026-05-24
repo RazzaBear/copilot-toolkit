@@ -2,11 +2,11 @@ import JSZip from "jszip";
 import type { ResourceKind } from "../data/routes";
 import type { ResourceItem, ResourceFile } from "../data/types";
 
-export const REPO_IDENTIFIER = "github/awesome-copilot";
+export const REPO_IDENTIFIER = "RazzaBear/copilot-toolkit";
 export const REPO_RAW_BASE =
-  "https://raw.githubusercontent.com/github/awesome-copilot/main";
+  "https://raw.githubusercontent.com/RazzaBear/copilot-toolkit/main";
 export const REPO_BLOB_BASE =
-  "https://github.com/github/awesome-copilot/blob/main";
+  "https://github.com/RazzaBear/copilot-toolkit/blob/main";
 
 export interface ZipDownloadFile {
   name: string;
